@@ -20,7 +20,7 @@ export const Heading = styled.h2`
   font-size: 35px;
   line-height: 1.1;
   font-weight: 600;
-  color: #01BF71;
+  color: #e2c3ff;
   text-align: center;
 
   @media screen and (max-width: 480px) {
@@ -30,11 +30,11 @@ export const Heading = styled.h2`
 
 export const TopLine = styled.p`
   color: black;
-  font-size: 20px;
-  margin: 50px 0;
-  line-height: 2;
-  letter-spacing: 2px;
-  font-weight: 300px;
+  font-size: 18px;
+  margin: 50px 0 0 0;
+  line-height: 1.5;
+  // letter-spacing: 0px;
+  font-weight: 300;
   text-align: center;
 
   @media screen and (max-width: 480px) {
@@ -42,8 +42,16 @@ export const TopLine = styled.p`
   }
 `
 
+export const TopLine2 = styled.p`
+  font-size: 18px;
+  text-align: center;
+  margin: 0 0 0 0;
+  color: black;
+  font-weight: 300;
+`
+
 export const Box = styled.div`
-  width: 33.3%;
+  width: 25%;
   padding: 0 35px;
   margin-left: auto;
   margin-right: auto;
@@ -66,33 +74,33 @@ export const Title = styled.h2`
   padding: 0 3.6%;
   font-size: 22px;
   font-weight: 600;
-  color: #01BF71;
-  line-height: 1.4;
-  margin: 0 0 14px; 
-  letter-spacing: 1px; 
+  color: #e2c3ff;
+  line-height: 1.5;
+  margin: 0 0 8px; 
+  letter-spacing: 0; 
 `
 
 export const SubTitle = styled.h3`  
-  font-size: 17px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 500;
   color: #000;
-  line-height: 28px;
+  line-height: 1.5;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
 `
 
 export const Description = styled.p`
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
   color: #000;
-  line-height: 28px;
+  // line-height: 28px;
   margin: 0 auto;
   text-align: center;
 `
 
 export const BoxContent = styled.div`
   text-align: center;
-  margin-top: 80px;
-  margin: 0 0;
+  margin-top: 50px;
+  margin:64px 0 0 0 0;
 `

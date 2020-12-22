@@ -11,7 +11,7 @@ export const RoadContent = styled.div`
   h1 {
     text-align: center;
     padding: 30px auto;
-    color: #01BF71;
+    color: #e2c3ff;
   }
 
   @media screen and (max-width: 768px) {
@@ -27,7 +27,7 @@ export const Circle = styled.span`
   height: 20px;
   z-index: 1;
   text-align: center;
-  margin: 68px auto 0 auto;
+  margin: 50px auto 0 auto;
 
   @media screen and (max-width: 768px) {
     margin: 40px auto 0 auto;
@@ -36,9 +36,9 @@ export const Circle = styled.span`
 
 export const SubTitle = styled.p`
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: #000;
-  margin: 20px 0 10px 0;
+  margin: 10px 0 10px 0;
 
   @media screen and (max-width: 768px) {
     font-size: 14px;
@@ -47,8 +47,8 @@ export const SubTitle = styled.p`
 `
 
 export const Title = styled.p`
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 500;
   color: #000;
   margin: -10px 0;
 
@@ -68,7 +68,7 @@ export const Timeline = styled.div`
     position: absolute;
     left: calc(50%);
     width: 2px;
-    height: 180%;
+    height: 165%;
   }
 `
 
@@ -121,7 +121,8 @@ export const Item = styled.div`
 
 export const Road = styled.h1`
   margin: 0 auto;
-  font-size: 35px;
+  font-size: 36px;
+  font-weight: 500;
 
   @media screen and (max-width: 768px) {
     font-size: 25px;
@@ -131,7 +132,7 @@ export const Road = styled.h1`
 
 export const Text = styled.p`
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.5;
   margin: 0 0;
   max-width: 250px;
   position: relative;

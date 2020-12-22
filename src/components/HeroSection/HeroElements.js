@@ -28,6 +28,10 @@ export const HeroContainer = styled.div`
       rgba(0,0,0,0.2), transparent 100%);
       z-index: 2;
   }
+
+  @media screen and (min-width: 1024px) {
+    height: 990px;
+  }
 `
 
 export const HeroBg = styled.div`
@@ -63,6 +67,7 @@ export const HeroContent = styled.div`
 export const HeroH1 = styled.h1`
   color: #fff;
   font-size: 48px;
+  font-weight: 700;
   text-align: center;
 
   @media screen and (max-width: 768px) {
@@ -77,9 +82,10 @@ export const HeroH1 = styled.h1`
 export const HeroP =styled.p`
   margin-top: 24px;
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   max-width: 600px;
+  line-height: 1.5;
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
