@@ -1,9 +1,7 @@
 import React from 'react';
 import { SidebarContainer, CloseIcon, Icon, SidebarWrapper, SidebarLink, SidebarMenu, SideBtnWrap, } from './SidebarElements';
-import img1 from '../../images/us-flag.png';
-import img2 from '../../images/china-flag.png';
 
-const Sidebar = ({ isOpen, toggle, changeLanguage, t, i18n }) => {
+const Sidebar = ({ isOpen, toggle, changeLanguage, ln, t, i18n }) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -17,9 +15,8 @@ const Sidebar = ({ isOpen, toggle, changeLanguage, t, i18n }) => {
           <SidebarLink to='roadmap' onClick={toggle}>{t("roadMap")}</SidebarLink>
           <SidebarLink to='career' onClick={toggle}>{t("career")}</SidebarLink>
         </SidebarMenu>
-        <SideBtnWrap>
-            <img src={img1} onClick={changeLanguage('en')} alt='us' />
-            <img src={img2} onClick={changeLanguage('pt')} alt='us' />
+        <SideBtnWrap onClick={changeLanguage}>
+         {ln}
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

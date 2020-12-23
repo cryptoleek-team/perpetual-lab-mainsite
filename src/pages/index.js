@@ -8,7 +8,7 @@ import RoadMap from '../components/RoadMap';
 import Career from '../components/Career';
 import Footer from '../components/Footer';
 import { useTranslation } from 'react-i18next';
-import i18n from'../i18n';
+import '../i18n';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 
@@ -24,12 +24,18 @@ const Home = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   
-  const { t, i18n } = useTranslation();
+  
+  const { t,i18n } = useTranslation();
+  const [ln, setLn] = useState('English');
 
-  const changeLanguage = (ln) => {
-    return () => {
-      i18n.changeLanguage(ln);
-    }
+  const changeLan = (l) => {
+    if (ln==='English') {
+      setLn('中文');
+    } else {
+      setLn('English');
+    } 
+    i18n.changeLanguage(ln);
+    console.log(l);
   };
 
   const toggle = () => {
@@ -38,8 +44,8 @@ const Home = () => {
 
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} changeLanguage={changeLanguage} t={t} i18n={i18n}/>
-      <Navbar toggle={toggle} changeLanguage={changeLanguage} t={t} i18n={i18n}/>
+      <Sidebar isOpen={isOpen} toggle={toggle} changeLanguage={changeLan} ln={ln} t={t} i18n={i18n}/>
+      <Navbar toggle={toggle} changeLanguage={changeLan} ln={ln} t={t} i18n={i18n}/>
       <HeroSection  id='home' t={t} i18n={i18n}/>
       <InforSection id='about'/>
       <SerSection id='services'/>

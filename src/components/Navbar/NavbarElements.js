@@ -92,13 +92,8 @@ export const NavBtn = styled.nav`
   color: #fff;
   display: flex;
   align-items: center;
+  text-align: center;
   margin-right: 30px;
-
-  img {
-    width: 40px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
 
   @media screen and (max-width: 768px) {
     display: none;

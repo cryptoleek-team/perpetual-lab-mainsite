@@ -88,16 +88,6 @@ export const Text = styled.div`
   }
 `
 
-export const TopLine = styled.p`
-  color: #e2c3ff;
-  font-size: 22px;
-  line-height: 1.5;
-  font-weight: 600;
-  letter-spacing: 1.4;
-  text-transform: uppercase;
-  margin-bottom: 8px;
-`
-
 export const Heading = styled.h2`
   margin-bottom: 20px;
   font-size: 18px;

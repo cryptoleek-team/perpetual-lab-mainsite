@@ -13,10 +13,10 @@ import {
   NavBtn
 } from './NavbarElements';
 import logo from '../../images/logo.png';
-import img1 from '../../images/us-flag.png';
-import img2 from '../../images/china-flag.png';
+// import img1 from '../../images/us-flag.png';
+// import img2 from '../../images/china-flag.png';
 
-const Navbar = ({ toggle, changeLanguage, t, i18n }) => {
+const Navbar = ({ toggle, changeLanguage, ln, t, i18n }) => {
   const [scrollNav, setScrollNav] = useState(false)
 
   const changeNav = () => {
@@ -98,10 +98,7 @@ const Navbar = ({ toggle, changeLanguage, t, i18n }) => {
               >{t("career")}</NavLinks>
             </NavItem>
           </NavMenu>
-          <NavBtn>
-            <img src={img1} onClick={changeLanguage('en')} alt='us' />
-            <img src={img2} onClick={changeLanguage('pt')} alt='us' />
-          </NavBtn>
+          <NavBtn onClick={changeLanguage}>{ln}</NavBtn>
         </NavbarContainer>
       </Nav>
     </IconContext.Provider>

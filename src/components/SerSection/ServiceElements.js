@@ -22,6 +22,7 @@ export const SerWrapper = styled.div`
   justify-content: center;
 
   h1 {
+    margin-bottom: 14px;
     font-size: 35px;
     line-height: 1.1;
     font-weight: 600;
@@ -56,13 +57,13 @@ export const SerRow = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-areas: 'col2 col2' 'col1 col1';
   }
-  // ${({ imgStart }) => (imgStart ? `'col2 col2' 'col1 col1'` : `'col1 col1' 'col2 col2'`)};
 `
 
 export const Column1 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
+  margin: 15px auto;
+  padding: 0 80px;
   grid-area: col1;
+  text-align: ${({ left }) => (left ? 'right' : 'left')};
 
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -73,7 +74,8 @@ export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
-
+  text-align: center;
+  
   @media screen and (max-width: 768px) {
     text-align: center;
   }
@@ -130,7 +132,7 @@ export const Subtitle = styled.p`
 
 export const BtnWrap = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: ${({ left }) => (left ? 'flex-start' : 'flex-end')};
 
   @media screen and (max-width: 768px) {
     justify-content: center;

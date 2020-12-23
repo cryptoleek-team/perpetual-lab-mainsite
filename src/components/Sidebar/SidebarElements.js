@@ -72,11 +72,5 @@ export const SidebarLink = styled(LinkS)`
 export const SideBtnWrap = styled.div`
   display: flex;
   justify-content: center;
-
-  img {
-    width: 40px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
 `
 
