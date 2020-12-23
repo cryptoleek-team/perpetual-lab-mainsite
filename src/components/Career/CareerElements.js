@@ -3,15 +3,12 @@ import styled from 'styled-components';
 export const SerContent = styled.div`
   color: #fff;
   background: #010606;
-  padding: 50px 0;
-  margin: 80px 0 0 0;
+  padding: 100px 0;
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 `
-
-
 
 export const SerWrapper = styled.div`
   display: grid;
@@ -25,33 +22,31 @@ export const SerWrapper = styled.div`
   justify-content: center;
 
   h1 {
-    margin: 50px auto 40px auto;
-    font-size: 36px;
+    font-size: 35px;
+    line-height: 1.1;
+    font-weight: 600;
     color: #e2c3ff;
-    font-weight: 500;
-    padding-bottom: 15px;
+    text-align: center;
 
     @media screen and (max-width: 768px) {
       font-size: 25px;
-      margin: 10px auto 0 auto;
     }
   }
 `
 export const SerWrap = styled.p`
-  margin: 35px auto 50px auto;
+  margin: 50px auto;
   font-size: 18px;
   font-weight: 300;
-  text-align: center;
-  line-weight; 1.5;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
+    text-align: center;
+    margin: 30px auto;
   }
 `
 
-
 export const SerRow = styled.div`
-  margin: 30px auto 0 auto;
+  margin: 0px auto;
   display: grid;
   grid-auto-columns: minmax(auto,1fr);
   align-items: center;
@@ -66,18 +61,31 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    margin-bottom: 0;
+  }
 `
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 `
 
 export const Text = styled.div`
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 30px;
+  }
 `
 
 export const TopLine = styled.p`
@@ -99,7 +107,7 @@ export const Heading = styled.h2`
   text-align: center;
 
   @media screen and (max-width: 768px) {
-    font-size: 22px;
+    font-size: 16px;
   }
 `
 
@@ -112,7 +120,8 @@ export const Subtitle = styled.p`
   font-weight: 300;
 
   @media screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 16px;
+    text-align: center;
   }
 `
 

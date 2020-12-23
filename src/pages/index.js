@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
@@ -9,8 +9,19 @@ import Career from '../components/Career';
 import Footer from '../components/Footer';
 import { useTranslation } from 'react-i18next';
 import i18n from'../i18n';
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 const Home = () => {
+  useEffect(() => {
+    Aos.init({ 
+      duration: 600,
+      disable: function() {
+        return window.innerWidth < 768;
+      }
+    });
+  }, []);
+
   const [isOpen, setIsOpen] = useState(false);
   
   const { t, i18n } = useTranslation();
@@ -27,7 +38,7 @@ const Home = () => {
 
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle}/>
+      <Sidebar isOpen={isOpen} toggle={toggle} changeLanguage={changeLanguage} t={t} i18n={i18n}/>
       <Navbar toggle={toggle} changeLanguage={changeLanguage} t={t} i18n={i18n}/>
       <HeroSection  id='home' t={t} i18n={i18n}/>
       <InforSection id='about'/>

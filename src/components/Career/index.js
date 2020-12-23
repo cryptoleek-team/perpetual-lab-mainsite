@@ -1,14 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import { SerContent, SerWrapper, SerWrap, SerRow, Column1, Column2, Text, Content, TopLine, Heading, Subtitle, ImgWrap } from './CareerElements';
 import img1 from '../../images/service.png';
-import Aos from "aos";
-import 'aos/dist/aos.css';
 
 const Career = ({id}) => {
-  useEffect(() => {
-    Aos.init({ duration: 3000});
-  }, []);
-
   return (
     <SerContent id={id}>
       <SerWrapper>

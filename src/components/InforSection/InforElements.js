@@ -4,6 +4,10 @@ export const InfoContainer = styled.div`
   color: #f9f9f9;
   z-index: 11;
   padding: 100px 0;
+
+  @media screen and (max-width: 480px) {
+    padding: 50px 0;
+  }
 `
 
 export const TextWrapper = styled.div`
@@ -31,23 +35,15 @@ export const Heading = styled.h2`
 export const TopLine = styled.p`
   color: black;
   font-size: 18px;
-  margin: 50px 0 0 0;
+  margin: 50px 150px;
   line-height: 1.5;
-  // letter-spacing: 0px;
   font-weight: 300;
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    font-size: 14px;
+    font-size: 16px;
+    margin: 30px auto;
   }
-`
-
-export const TopLine2 = styled.p`
-  font-size: 18px;
-  text-align: center;
-  margin: 0 0 0 0;
-  color: black;
-  font-weight: 300;
 `
 
 export const Box = styled.div`
@@ -73,11 +69,15 @@ export const Title = styled.h2`
   text-align: center;
   padding: 0 3.6%;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
   color: #e2c3ff;
   line-height: 1.5;
   margin: 0 0 8px; 
   letter-spacing: 0; 
+
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 `
 
 export const SubTitle = styled.h3`  
@@ -88,6 +88,10 @@ export const SubTitle = styled.h3`
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `
 
 export const Description = styled.p`
@@ -97,10 +101,17 @@ export const Description = styled.p`
   // line-height: 28px;
   margin: 0 auto;
   text-align: center;
+
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `
 
 export const BoxContent = styled.div`
   text-align: center;
-  margin-top: 50px;
-  margin:64px 0 0 0 0;
+  margin:50px 0 0 0;
+
+  @media (max-width: 768px){
+    margin:30px 0 0 0;
+  }
 `

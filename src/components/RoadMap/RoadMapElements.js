@@ -16,6 +16,7 @@ export const RoadContent = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 50%;
+    padding: 50px 0 100px 0;
   }
 `
 
@@ -52,8 +53,10 @@ export const Title = styled.p`
   color: #000;
   margin: -10px 0;
 
+
   @media screen and (max-width: 768px) {
     font-size: 16px;
+    margin: -10px -50px -10px 0;
   }
 `
 
@@ -91,7 +94,6 @@ export const ItemContainer = styled.div`
     justify-content: flex-start;
     padding-left: 30px;
     padding-right: 0;
-    }
   }
 `
 
@@ -111,6 +113,9 @@ export const Item = styled.div`
   }
 
   @media screen and (max-width: 768px) {
+    margin: -10px 40px -10px -20px;
+    width: 500px;
+
     &.left {
       align-items: flex-start;
       margin: -10px -20px;
@@ -137,6 +142,7 @@ export const Text = styled.p`
   max-width: 250px;
   position: relative;
   color: #000;
+  font-weight: 300;
 
   &.alignRight{
     text-align:right;
@@ -144,5 +150,8 @@ export const Text = styled.p`
 
   @media screen and (max-width: 768px) {
     font-size: 12px;
+    &.alignRight{
+      text-align:left;
+    }
   }
 `

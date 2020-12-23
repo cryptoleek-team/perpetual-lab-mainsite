@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const SerContent = styled.div`
   color: #fff;
   background: #010606;
-  padding: 50px 0;
+  padding: 100px 0;
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 `
 
@@ -22,11 +22,11 @@ export const SerWrapper = styled.div`
   justify-content: center;
 
   h1 {
-    margin: 50px auto 0 auto;
-    font-size: 36px;
+    font-size: 35px;
+    line-height: 1.1;
+    font-weight: 600;
     color: #e2c3ff;
-    font-weight: 500;
-    padding-bottom: 15px;
+    text-align: center;
 
     @media screen and (max-width: 768px) {
       font-size: 25px;
@@ -35,12 +35,14 @@ export const SerWrapper = styled.div`
 `
 
 export const SerWrap = styled.p`
-  margin: 35px auto 50px auto;
+  margin: 50px auto;
   font-size: 18px;
   font-weight: 300;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
+    text-align: center;
+    margin: 30px auto;
   }
 `
 
@@ -61,28 +63,44 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 `
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 `
 
 export const Text = styled.div`
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 `
 
 export const TopLine = styled.p`
   color: #e2c3ff;
   font-size: 22px;
   line-height: 1.5;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1.4;
   text-transform: uppercase;
   margin-bottom: 8px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 `
 
 export const Heading = styled.h2`
@@ -93,7 +111,7 @@ export const Heading = styled.h2`
   color: #f7f8fa; 
 
   @media screen and (max-width: 768px) {
-    font-size: 22px;
+    font-size: 16px;
   }
 `
 
@@ -106,13 +124,17 @@ export const Subtitle = styled.p`
   font-weight: 300;
 
   @media screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 16px;
   }
 `
 
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 `
 
 export const ImgWrap = styled.div`

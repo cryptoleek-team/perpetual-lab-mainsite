@@ -5,13 +5,13 @@ import { Link as LinkS } from 'react-scroll';
 export const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
-  width: 100%;
+  width: 50%;
   height: 100%;
   background: #0d0d0d;
   display: grid;
   align-items: center;
   top: 0;
-  left: 0;
+  right: 0;
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
   top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
@@ -62,11 +62,21 @@ export const SidebarLink = styled(LinkS)`
     color: #e2c3ff;
     transition: 0.2s ease-in-out;
   }
+
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `;
 
 
 export const SideBtnWrap = styled.div`
   display: flex;
   justify-content: center;
+
+  img {
+    width: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 `
 

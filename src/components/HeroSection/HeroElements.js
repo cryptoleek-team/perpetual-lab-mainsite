@@ -29,7 +29,7 @@ export const HeroContainer = styled.div`
       z-index: 2;
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-height: 800px) {
     height: 990px;
   }
 `
@@ -52,6 +52,7 @@ export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
+  opacity:0.5;
 `;
 
 export const HeroContent = styled.div`
@@ -80,36 +81,16 @@ export const HeroH1 = styled.h1`
 `
 
 export const HeroP =styled.p`
-  margin-top: 24px;
+  margin-top: 50px;
   color: #fff;
   font-size: 18px;
   text-align: center;
   max-width: 600px;
   line-height: 1.5;
-
-  @media screen and (max-width: 768px) {
-    font-size: 24px;
-  }
+  font-weight: 300;
 
   @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: 30px;
   }
 `
-
-export const HeroBtnWrapper = styled.div`
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-export const ArrowForward = styled(MdArrowForward)`
-  margin-left: 8px;
-  font-size: 20px;
-`
-
-export const ArrowRight = styled(MdKeyboardArrowRight)`
-  margin-left: 8px;
-  font-size: 20px;
-`
-

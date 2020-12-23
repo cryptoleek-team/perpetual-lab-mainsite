@@ -1,30 +1,26 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { SerContent, SerWrapper, SerWrap, SerRow, Column1, Column2, Text, TopLine, Heading, Subtitle, BtnWrap, ImgWrap } from './ServiceElements'
 import { Button } from '../ButtonElements';
 import img1 from '../../images/service.png';
 import img2 from '../../images/service1.png';
 import img3 from '../../images/service2.png';
-import Aos from "aos";
-import 'aos/dist/aos.css';
 
 const SerSection = ({id}) => {
-  useEffect(() => {
-    Aos.init({ duration: 3000});
-  }, []);
 
   return (
     <>
       <SerContent id={id}>
         <SerWrapper>
-          <h1 data-aos="fade-down">KNOW MORE ABOUT WHAT WE DO</h1>
-          <SerWrap data-aos="fade-down">OTC EXCHANE BLOCKCHAIN ORACLE: TECHNICAL SUPPORT</SerWrap>
+          <h1>KNOW MORE ABOUT WHAT WE DO</h1>
+          <SerWrap>OTC EXCHANE BLOCKCHAIN ORACLE: TECHNICAL SUPPORT</SerWrap>
           <SerRow imgStart={true}>
-            <Column1 data-aos="fade-right">
+            <Column1 data-aos="fade-down">
               <Text>
                 <TopLine>Yesbit OTC</TopLine>
                 <Heading>Fiat-Crypto OTC trading platform</Heading>
                 <Subtitle>
-World class crypto exchange, white label service, professional consulting service etc.</Subtitle>
+                  World class crypto exchange, white label service, professional consulting service etc.
+                </Subtitle>
                 <BtnWrap>
                   <Button 
                     to='home'
@@ -41,14 +37,14 @@ World class crypto exchange, white label service, professional consulting servic
                 </BtnWrap>
               </Text>
             </Column1>
-            <Column2 data-aos="fade-right">
+            <Column2 data-aos="fade-down">
               <ImgWrap>
                 <img src={img1} alt=''/>
               </ImgWrap>
             </Column2>
           </SerRow>
           <SerRow imgStart={false}>
-            <Column1 data-aos="fade-left">
+            <Column1 data-aos="fade-down">
               <Text>
                 <TopLine>KrawlCat</TopLine>
                 <Heading>A Generalized Oracle for Blockchains</Heading>
@@ -71,14 +67,14 @@ World class crypto exchange, white label service, professional consulting servic
                 </BtnWrap>
               </Text>
             </Column1>
-            <Column2 data-aos="fade-left">
+            <Column2 data-aos="fade-down">
               <ImgWrap>
                 <img src={img2} alt=''/>
               </ImgWrap>
             </Column2>
           </SerRow>
           <SerRow imgStart={true}>
-            <Column1 data-aos="fade-right">
+            <Column1 data-aos="fade-down">
               <Text>
                 <TopLine>Yesbit OTC</TopLine>
                 <Heading>Fiat-Crypto OTC trading platform</Heading>
@@ -99,14 +95,14 @@ World class crypto exchange, white label service, professional consulting servic
                 </BtnWrap>
               </Text>
             </Column1>
-            <Column2 data-aos="fade-right">
+            <Column2 data-aos="fade-down">
               <ImgWrap>
                 <img src={img3} alt=''/>
               </ImgWrap>
             </Column2>
           </SerRow>
           <SerRow imgStart={false}>
-            <Column1 data-aos="fade-right">
+            <Column1 data-aos="fade-down">
               <Text>
                 <TopLine>Yesbit OTC</TopLine>
                 <Heading>Fiat-Crypto OTC trading platform</Heading>
@@ -127,7 +123,7 @@ World class crypto exchange, white label service, professional consulting servic
                 </BtnWrap>
               </Text>
             </Column1>
-            <Column2 data-aos="fade-right">
+            <Column2 data-aos="fade-down">
               <ImgWrap>
                 <img src={img3} alt=''/>
               </ImgWrap>
