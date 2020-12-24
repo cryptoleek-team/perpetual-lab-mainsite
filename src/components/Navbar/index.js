@@ -12,7 +12,7 @@ import {
   NavLinks,
   NavBtn
 } from './NavbarElements';
-import logo from '../../images/logo.png';
+import logo from '../../images/Perpetual Labs-06.png';
 // import img1 from '../../images/us-flag.png';
 // import img2 from '../../images/china-flag.png';
 

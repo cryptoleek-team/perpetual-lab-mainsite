@@ -42,7 +42,6 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden; 
-  opacity: 0.5;
 `
 
 export const VideoBg = styled.video`
@@ -51,7 +50,7 @@ export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
-  opacity:0.5;
+  opacity:0.6;
 `;
 
 export const HeroContent = styled.div`
@@ -80,16 +79,15 @@ export const HeroH1 = styled.h1`
 `
 
 export const HeroP =styled.p`
-  margin-top: 50px;
   color: #fff;
   font-size: 18px;
   text-align: center;
-  max-width: 600px;
+  margin: 50px 150px;
   line-height: 1.5;
   font-weight: 300;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 16px;
-    margin-top: 30px;
+    margin: 30px 10px;
   }
 `

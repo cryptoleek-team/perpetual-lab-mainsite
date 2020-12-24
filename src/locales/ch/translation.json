@@ -1,10 +1,18 @@
 {
-  "title": "UTU技术有限公司",
-  "description": "传统的社交媒体平台旨在入侵隐私并出售个人数据以使少数人获利。",
-  "whitepaper": "白皮书",
+  "title": "Perpetual Lab",
+  "description": "从提供配置指导、解决运营问题、到主动持续跟进，帮助实现远期业务设想，以为合作伙伴带来商业成功为服务标准。",
   "home":"主页",
-  "about": "关于PERPLABS",
+  "about": "关于PERPLAB",
   "services": "业务项目",
   "career":"加入我们",
-  "roadMap": "路线图"
+  "roadMap": "路线图",
+  "introduction": "关于Perpetual Lab",
+  "topline":"Perpetual Labs是一家专注于区块链研究实验室，提供世界级的区块链服务，如加密交易所、加密钱包、加密托管、去中心化金融应用和BAAS等。",
+  "section3":"了解我们",
+  "subtitle1":"世界级加密交易所、白标签服务、专业咨询服务等。",
+  "subtitle2": "区块链钱包支持比特币、LTC、BCH、ETH、EOS、ERC20等多种主流币。我们在钱包中添加了DEFI功能，包括通证即时交换、跨链通证交换、押注、LP挖掘等。",
+  "subtitle3": "包括DEFI space、NFT space和STO space在内的世界级DAPP。DAPP孵化与开发。",
+  "subtitle4":"加密基金投资，专门的项目研究，包括Sushiswap analytics, Ren analytics, Uniswap analytics和Sol analytics。第一个进入GRT的基金获得了100倍的收益。",
+  "join":"加入我们",
+  "serwrap":"Perpetual lab由来自墨尔本大学(Melbourne University)、迪肯大学(Deakin University)等的博士研究员组成的加密和区块链行业专家团队建造。曾任职于埃森哲、eBay、阿里巴巴、谷歌、华为等公司的区块链开发人员。资深金融加密分析师，曾为华尔街加密基金工作。我们是一个充满激情、富有创造力、经验丰富的cryto专家团队。"
 }

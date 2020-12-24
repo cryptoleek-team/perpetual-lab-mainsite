@@ -37,7 +37,12 @@ export const NavLogo = styled(LinkS)`
   width: 100px;
   margin-left: 30px;
   img {
-    height: 100%;
+    height: 50%;
+    margin-top: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-left: 10px;
   }
 `;
 

@@ -33,6 +33,7 @@ export const SerWrapper = styled.div`
     }
   }
 `
+
 export const SerWrap = styled.p`
   margin: 50px auto;
   font-size: 18px;
@@ -135,6 +136,7 @@ export const Content = styled.p`
 
   @media screen and (max-width: 768px) {
     font-size: 12px;
+    text-align: center;
   }
 `
 

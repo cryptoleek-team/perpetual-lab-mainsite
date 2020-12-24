@@ -1,10 +1,18 @@
 {
-  "title": "Perpetual Labs ",
-  "description": "Traditional social media platforms are built to invade privacy and sell personal data to profit the few.",
-  "whitepaper": "Whitepaper",
+  "title": "Perpetual Lab ",
+  "description": "From providing configuration guidance, solving operational problems, to proactive and continuous follow-up, to help realize long-term business ideas, and to bring business success to partners as a service standard.",
   "home":"HOME",
   "about": "ABOUT US",
   "services": "SERVICES",
   "career":"CAREER",
-  "roadMap": "ROADMAP"
+  "roadMap": "ROADMAP",
+  "introduction": "INTRODUCTION",
+  "topline":"Perpetual Lab is a dedicated blockchain research lab providng world class blockchain services such as crypto exchange, crypto wallet, crypto custodian, decentralized finance applications and BAAS etc. ",
+  "section3":"KNOW MORE ABOUT WHAT WE DO",
+  "subtitle1":"World class crypto exchange, white label service, professional consulting service etc.",
+  "subtitle2": "Blockchain wallet support multiple mainstream coins including Bitcoin, LTC, BCH, ETH, EOS, ERC20 etc. We are adding DEFI features in to the wallet including token swap on-the-go, cross-chain token swap, staking, LP mining etc.",
+  "subtitle3": "World class DAPP including DEFI space, NFT space and STO space. DAPP incubator and development.",
+  "subtitle4":"Crypto fund investment, dedicated project research including Sushiswap analytics, Ren Analytics, Uniswap analytics and Sol analytics. Very first fund get into $GRT and 100x gain.",
+  "join":"JOIN US",
+  "serwrap":"Perpetual Lab is built by a team of crypto and blockchain experts in the industry including phd researchers from Melbourne University, Deakin University etc. Experienced blockchain developers who worked for Accenture, eBay, Alibaba, Google and Huawei etc. Expierenced finacial crypto analyst who used to work for wall street crypto fund. We are a team of passionate, displine and expierenced cryto experts."
 }

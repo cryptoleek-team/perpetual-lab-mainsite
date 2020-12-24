@@ -46,13 +46,13 @@ const Home = () => {
 
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} changeLanguage={changeLan} ln={ln} t={t} i18n={i18n}/>
-      <Navbar toggle={toggle} changeLanguage={changeLan} ln={ln} t={t} i18n={i18n}/>
-      <HeroSection  id='home' t={t} i18n={i18n}/>
-      <InforSection id='about'/>
-      <SerSection id='services'/>
-      <RoadMap id='roadmap' />
-      <Career id='career' /> 
+      <Sidebar isOpen={isOpen} toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
+      <Navbar toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
+      <HeroSection  id='home' t={t}/>
+      <InforSection id='about' ln={ln} t={t}/>
+      <SerSection id='services' t={t}/>
+      <RoadMap id='roadmap' t={t}/>
+      <Career id='career' t={t}/> 
       <Footer />
     </>
   );

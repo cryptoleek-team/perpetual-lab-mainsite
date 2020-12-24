@@ -1,11 +1,11 @@
 import React from 'react';
 import { RoadContent, Road, Title, SubTitle, ItemContainer, Item, Text, Circle, Timeline } from './RoadMapElements';
 
-const RoadMap = ({id}) => {
+const RoadMap = ({id, t}) => {
 
   return (
     <RoadContent id={id}>
-      <Road>RoadMap</Road>
+      <Road>{t("roadMap")}</Road>
       <Circle/>
       <Timeline >
         <ItemContainer className='position' data-aos="fade-left">

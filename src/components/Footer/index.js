@@ -31,9 +31,9 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              Address: Unit 1220, 5255 Yonge Street, Toronto, ON, Canada
+              Level 2/696 Bourke St, Melbourne VIC 3000
             </SocialLogo>
-            <WebsiteRights>UTU Technology @ {new Date().getFullYear()}All rights reserved.</WebsiteRights>
+            <WebsiteRights>Perpetual labs @ {new Date().getFullYear()} All rights reserved.</WebsiteRights>
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrapper>
