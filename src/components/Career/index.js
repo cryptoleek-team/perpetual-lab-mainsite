@@ -1,5 +1,17 @@
 import React from 'react';
-import { SerContent, SerWrapper, SerWrap, SerRow, Column1, Column2, Text, Content, Heading, Subtitle, ImgWrap } from './CareerElements';
+import {
+  SerContent,
+  SerWrapper,
+  SerWrap,
+  SerRow,
+  Column1,
+  Column2,
+  Text,
+  Content,
+  Heading,
+  Subtitle,
+  ImgWrap
+} from './CareerElements';
 import img1 from '../../images/service.png';
 
 const Career = ({ id, t }) => {
@@ -15,13 +27,13 @@ const Career = ({ id, t }) => {
               <Subtitle>{t("whyJoinUsDesc")}</Subtitle>
             </Text>
           </Column1>
-          <Column2 data-aos='fade-down'>
+          <Column2>
             <ImgWrap>
               <img src={img1} alt='' />
             </ImgWrap>
           </Column2>
         </SerRow>
-        <Content data-aos='fade-down'>{t("joinUsNow")}</Content>
+        <Content>{t("joinUsNow")}</Content>
       </SerWrapper>
     </SerContent>
   )

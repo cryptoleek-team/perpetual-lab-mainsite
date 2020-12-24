@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SerContent = styled.div`
   color: #fff;
-  background: #010606;
+  background-image: linear-gradient( #220C4A , #8167A5);
   padding: 100px 0;
 
   @media screen and (max-width: 768px) {
@@ -26,11 +26,12 @@ export const SerWrapper = styled.div`
     font-size: 35px;
     line-height: 1.1;
     font-weight: 600;
-    color: #e2c3ff;
+    color: #fff; 
     text-align: center;
 
     @media screen and (max-width: 768px) {
       font-size: 25px;
+      margin: 0 15px;
     }
   }
 `

@@ -98,7 +98,6 @@ export const Description = styled.p`
   font-size: 18px;
   font-weight: 300;
   color: #000;
-  // line-height: 28px;
   margin: 0 auto;
   text-align: center;
 

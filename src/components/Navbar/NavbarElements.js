@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
+  background: ${({ scrollNav }) => (scrollNav ? '#220C4A' : 'transparent')};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -12,7 +12,9 @@ export const Nav = styled.nav`
   font-size:1rem;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 11;
+  opacity: 0.9;
+  backdrop-filter: ${({ scrollNav }) => (scrollNav ? 'blur(25px)' : 'transparent')};
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -99,6 +101,7 @@ export const NavBtn = styled.nav`
   align-items: center;
   text-align: center;
   margin-right: 30px;
+  cursor: pointer;
 
   @media screen and (max-width: 768px) {
     display: none;

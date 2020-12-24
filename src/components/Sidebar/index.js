@@ -1,7 +1,15 @@
 import React from 'react';
-import { SidebarContainer, CloseIcon, Icon, SidebarWrapper, SidebarLink, SidebarMenu, SideBtnWrap, } from './SidebarElements';
+import {
+  SidebarContainer,
+  CloseIcon,
+  Icon,
+  SidebarWrapper,
+  SidebarLink,
+  SidebarMenu,
+  SideBtnWrap
+} from './SidebarElements';
 
-const Sidebar = ({ isOpen, toggle, changeLanguage, ln, t, i18n }) => {
+const Sidebar = ({ isOpen, toggle, changeLanguage, ln, t }) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -16,7 +24,7 @@ const Sidebar = ({ isOpen, toggle, changeLanguage, ln, t, i18n }) => {
           <SidebarLink to='career' onClick={toggle}>{t("career")}</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap onClick={changeLanguage}>
-         {ln}
+          {ln}
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

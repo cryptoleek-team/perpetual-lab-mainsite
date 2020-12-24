@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const SerContent = styled.div`
   color: #fff;
-  background: #010606;
   padding: 100px 0;
+  background-image: linear-gradient( #220C4A , #8167A5);
 
   @media screen and (max-width: 768px) {
     padding: 50px 0;
@@ -25,7 +25,7 @@ export const SerWrapper = styled.div`
     font-size: 35px;
     line-height: 1.1;
     font-weight: 600;
-    color: #e2c3ff;
+    color: #fff;
     text-align: center;
 
     @media screen and (max-width: 768px) {
@@ -38,11 +38,11 @@ export const SerWrap = styled.p`
   margin: 50px auto;
   font-size: 18px;
   font-weight: 300;
+  text-align: center;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
-    text-align: center;
-    margin: 30px auto;
+    margin: 30px 30px;
   }
 `
 
@@ -113,6 +113,7 @@ export const Subtitle = styled.p`
   @media screen and (max-width: 768px) {
     font-size: 16px;
     text-align: center;
+    margin: 0 15px;
   }
 `
 

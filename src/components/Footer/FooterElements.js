@@ -2,11 +2,11 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const FooterContain = styled.footer`
-  background: #333333;
+  background: #8167A5;
 `
 
 export const FooterWrapper = styled.div`
-  padding: 30px 24px 10px 24px;
+  padding: 0 24px 20px 24px;
   display: flex;
   flex-direction:column;
   justify-content: center;
@@ -61,6 +61,7 @@ export const SocialIcons = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 240px;
+  margin-top: -10px;
 `
 
 export const SocialIconLink = styled.a`

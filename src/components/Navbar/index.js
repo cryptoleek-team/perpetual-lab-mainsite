@@ -13,21 +13,19 @@ import {
   NavBtn
 } from './NavbarElements';
 import logo from '../../images/Perpetual Labs-06.png';
-// import img1 from '../../images/us-flag.png';
-// import img2 from '../../images/china-flag.png';
 
 const Navbar = ({ toggle, changeLanguage, ln, t, i18n }) => {
   const [scrollNav, setScrollNav] = useState(false)
 
   const changeNav = () => {
-    if(window.scrollY >= 80) {
+    if (window.scrollY >= 80) {
       setScrollNav(true)
     } else {
       setScrollNav(false)
     }
   }
 
-  useEffect(()=>{
+  useEffect(() => {
     window.addEventListener('scroll', changeNav)
   }, [])
 
@@ -37,71 +35,71 @@ const Navbar = ({ toggle, changeLanguage, ln, t, i18n }) => {
 
   return (
     <>
-    <IconContext.Provider value={{ color: '#fff'}}>
-      <Nav scrollNav={scrollNav}>
-        <NavbarContainer>
-          <NavLogo to='/' onClick={toggleHome}>
-            <img src={logo} alt="logo" />
-          </NavLogo>
-          <MobileIcon onClick={toggle}>
-            <FaBars />
-          </MobileIcon>
-          <NavMenu>
-            <NavItem>
-              <NavLinks 
-                to='home'
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact='true'
-                offset={-80}
-              >{t("home")}</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks 
-                to='about'
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact='true'
-                offset={-80}
-              >{t("about")}</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks 
-                to='services'
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact='true'
-                offset={-80}
-              >{t("services")}</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks 
-                to='roadmap'
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact='true'
-                offset={-80}
-              >{t("roadMap")}</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks 
-                to='career'
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact='true'
-                offset={-80}
-              >{t("career")}</NavLinks>
-            </NavItem>
-          </NavMenu>
-          <NavBtn onClick={changeLanguage}>{ln}</NavBtn>
-        </NavbarContainer>
-      </Nav>
-    </IconContext.Provider>
+      <IconContext.Provider value={{ color: '#fff' }}>
+        <Nav scrollNav={scrollNav}>
+          <NavbarContainer>
+            <NavLogo to='/' onClick={toggleHome}>
+              <img src={logo} alt="logo" />
+            </NavLogo>
+            <MobileIcon onClick={toggle}>
+              <FaBars />
+            </MobileIcon>
+            <NavMenu>
+              <NavItem>
+                <NavLinks
+                  to='home'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact='true'
+                  offset={-80}
+                >{t("home")}</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to='about'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact='true'
+                  offset={-80}
+                >{t("about")}</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to='services'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact='true'
+                  offset={-80}
+                >{t("services")}</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to='roadmap'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact='true'
+                  offset={-80}
+                >{t("roadMap")}</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to='career'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact='true'
+                  offset={-80}
+                >{t("career")}</NavLinks>
+              </NavItem>
+            </NavMenu>
+            <NavBtn onClick={changeLanguage}>{ln}</NavBtn>
+          </NavbarContainer>
+        </Nav>
+      </IconContext.Provider>
     </>
   )
 }

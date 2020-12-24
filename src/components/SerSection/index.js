@@ -1,13 +1,25 @@
 import React from 'react';
-import { SerContent, SerWrapper, SerWrap, SerRow, Column1, Column2, Text, TopLine, Heading, Subtitle, BtnWrap, ImgWrap } from './ServiceElements'
+import {
+  SerContent,
+  SerWrapper,
+  SerWrap,
+  SerRow,
+  Column1,
+  Column2,
+  Text,
+  TopLine,
+  Heading,
+  Subtitle,
+  BtnWrap,
+  ImgWrap
+} from './ServiceElements'
 import { Button } from '../ButtonElements';
 import img1 from '../../images/service.png';
 import img2 from '../../images/service1.png';
 import img3 from '../../images/service2.png';
 import img4 from '../../images/service3.png';
 
-const SerSection = ({id, t}) => {
-
+const SerSection = ({ id, t }) => {
   return (
     <>
       <SerContent id={id}>
@@ -21,7 +33,7 @@ const SerSection = ({id, t}) => {
                 <Heading>{t("topline1H")}</Heading>
                 <Subtitle>{t("subtitle1")}</Subtitle>
                 <BtnWrap left={true}>
-                  <Button 
+                  <Button
                     to='home'
                     smooth={true}
                     duration={500}
@@ -31,14 +43,14 @@ const SerSection = ({id, t}) => {
                     primary={1}
                     dark={1}
                     dark2={1}
-                    >
-                      Get Start</Button>
+                  >
+                    Get Start</Button>
                 </BtnWrap>
               </Text>
             </Column1 >
             <Column2 data-aos="fade-down">
               <ImgWrap>
-                <img src={img1} alt=''/>
+                <img src={img1} alt='' />
               </ImgWrap>
             </Column2>
           </SerRow>
@@ -49,7 +61,7 @@ const SerSection = ({id, t}) => {
                 <Heading>{t("topline2H")}</Heading>
                 <Subtitle>{t("subtitle2")}</Subtitle>
                 <BtnWrap left={false}>
-                  <Button 
+                  <Button
                     to='home'
                     smooth={true}
                     duration={500}
@@ -59,14 +71,14 @@ const SerSection = ({id, t}) => {
                     primary={1}
                     dark={1}
                     dark2={1}
-                    >
-                      Get Start</Button>
+                  >
+                    Get Start</Button>
                 </BtnWrap>
               </Text>
             </Column1>
             <Column2 data-aos="fade-down">
               <ImgWrap>
-                <img src={img2} alt=''/>
+                <img src={img2} alt='' />
               </ImgWrap>
             </Column2>
           </SerRow>
@@ -77,7 +89,7 @@ const SerSection = ({id, t}) => {
                 <Heading>{t("topline3H")}</Heading>
                 <Subtitle>{t("subtitle3")}</Subtitle>
                 <BtnWrap left={true}>
-                  <Button 
+                  <Button
                     to='home'
                     smooth={true}
                     duration={500}
@@ -87,14 +99,14 @@ const SerSection = ({id, t}) => {
                     primary={1}
                     dark={1}
                     dark2={1}
-                    >
-                      Get Start</Button>
+                  >
+                    Get Start</Button>
                 </BtnWrap>
               </Text>
             </Column1>
             <Column2 data-aos="fade-down">
               <ImgWrap>
-                <img src={img4} alt=''/>
+                <img src={img4} alt='' />
               </ImgWrap>
             </Column2>
           </SerRow>
@@ -105,7 +117,7 @@ const SerSection = ({id, t}) => {
                 <Heading>{t("topline4H")}</Heading>
                 <Subtitle>{t("subtitle4")}</Subtitle>
                 <BtnWrap left={false}>
-                  <Button 
+                  <Button
                     to='home'
                     smooth={true}
                     duration={500}
@@ -115,14 +127,14 @@ const SerSection = ({id, t}) => {
                     primary={1}
                     dark={1}
                     dark2={1}
-                    >
-                      Get Start</Button>
+                  >
+                    Get Start</Button>
                 </BtnWrap>
               </Text>
             </Column1>
             <Column2 data-aos="fade-down">
               <ImgWrap>
-                <img src={img3} alt=''/>
+                <img src={img3} alt='' />
               </ImgWrap>
             </Column2>
           </SerRow>

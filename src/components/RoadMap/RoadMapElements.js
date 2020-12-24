@@ -40,9 +40,11 @@ export const SubTitle = styled.p`
   font-weight: 500;
   color: #000;
   margin: 10px 0 10px 0;
+  text-align: ${({ position }) => (position ? 'left' : 'right')};
 
   @media screen and (max-width: 768px) {
     font-size: 14px;
+    text-align: left;
   }
 
 `
@@ -71,7 +73,7 @@ export const Timeline = styled.div`
     position: absolute;
     left: calc(50%);
     width: 2px;
-    height: 165%;
+    height: ${({ length }) => (length ? '200px' : '150px')};
   }
 `
 
@@ -114,7 +116,7 @@ export const Item = styled.div`
 
   @media screen and (max-width: 768px) {
     margin: -10px 40px -10px -20px;
-    width: 400px;
+    width: 500px;
 
     &.left {
       align-items: flex-start;

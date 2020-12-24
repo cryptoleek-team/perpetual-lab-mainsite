@@ -6,7 +6,6 @@ import {
   Heading,
   Box,
   Title,
-  SubTitle,
   Description,
   BoxContent
 } from './InforElements';
@@ -15,8 +14,8 @@ import logo2 from '../../images/bitcoin.png';
 import logo3 from '../../images/defi.png';
 import logo4 from '../../images/invest.png';
 
-const InforSection = ({id, t}) => {
-  
+const InforSection = ({ id, t }) => {
+
   return (
     <InfoContainer id={id}>
       <TextWrapper>
