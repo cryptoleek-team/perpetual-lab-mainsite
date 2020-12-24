@@ -20,7 +20,7 @@ const Career = ({ id, t }) => {
       <SerWrapper>
         <h1>{t("join")}</h1>
         <SerWrap >{t("joinSerwrap")}</SerWrap>
-        <SerRow imgStart={true}>
+        <SerRow imgStart={true} data-aos="fade-in">
           <Column1>
             <Text>
               <Heading>{t("whyJoinUs")}</Heading>

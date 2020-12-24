@@ -51,7 +51,7 @@ const Home = () => {
       <HeroSection  id='home' t={t}/>
       <InforSection id='about' ln={ln} t={t}/>
       <SerSection id='services' t={t}/>
-      <RoadMap id='roadmap' t={t}/>
+      <RoadMap id='roadmap' t={t} ln={ln}/>
       <Career id='career' t={t}/> 
       <Footer />
     </>

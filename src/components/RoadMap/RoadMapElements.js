@@ -3,10 +3,6 @@ import styled from 'styled-components';
 export const RoadContent = styled.div` 
   color: #f9f9f9;
   padding: 100px 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  flex-direction: column;
   
   h1 {
     text-align: center;
@@ -27,13 +23,20 @@ export const Circle = styled.span`
   width: 20px;
   height: 20px;
   z-index: 1;
-  text-align: center;
-  margin: 50px auto 0 auto;
-
-  @media screen and (max-width: 768px) {
-    margin: 40px auto 0 auto;
-  }
 `
+
+export const Container = styled.div`
+  margin: 0 auto;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  flex-direction: column;
+  height: ${({ lan }) => (lan ? '160px' : '140px')};
+  @media screen and (max-width: 768px) {
+    margin: -50px auto;
+    height: 200px;
+  }
+`;
 
 export const SubTitle = styled.p`
   font-size: 16px;
@@ -45,8 +48,8 @@ export const SubTitle = styled.p`
   @media screen and (max-width: 768px) {
     font-size: 14px;
     text-align: left;
+    width: 200px;
   }
-
 `
 
 export const Title = styled.p`
@@ -73,7 +76,7 @@ export const Timeline = styled.div`
     position: absolute;
     left: calc(50%);
     width: 2px;
-    height: ${({ length }) => (length ? '200px' : '150px')};
+    height: ${({ length }) => (length ? '155px' : '130px')};
   }
 `
 
@@ -107,7 +110,7 @@ export const Item = styled.div`
   width: 800px;
   max-width: 90%;
   text-align:left;
-  margin: -10px -20px;
+  margin: -10px -20px 0 0;
 
   &.left {
     align-items: flex-end;
@@ -116,7 +119,7 @@ export const Item = styled.div`
 
   @media screen and (max-width: 768px) {
     margin: -10px 40px -10px -20px;
-    width: 500px;
+    width: 430px;
 
     &.left {
       align-items: flex-start;
@@ -127,12 +130,13 @@ export const Item = styled.div`
 `
 
 export const Road = styled.h1`
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   font-size: 36px;
   font-weight: 500;
 
   @media screen and (max-width: 768px) {
     font-size: 25px;
+    margin: 0 auto 30px auto;
   }
 }
 `
@@ -141,7 +145,7 @@ export const Text = styled.p`
   font-size: 14px;
   line-height: 1.5;
   margin: 0 0;
-  max-width: 250px;
+  max-width: 300px;
   position: relative;
   color: #000;
   font-weight: 300;
@@ -152,6 +156,7 @@ export const Text = styled.p`
 
   @media screen and (max-width: 768px) {
     font-size: 12px;
+    width: 200px;
     &.alignRight{
       text-align:left;
     }

@@ -26,7 +26,7 @@ const SerSection = ({ id, t }) => {
         <SerWrapper>
           <h1>{t("section3")}</h1>
           <SerWrap>{t("section3SerWrap")}</SerWrap>
-          <SerRow imgStart={true}>
+          <SerRow imgStart={true} data-aos="fade-in">
             <Column1 left={false}>
               <Text>
                 <TopLine>{t("topline1")}</TopLine>
@@ -48,13 +48,13 @@ const SerSection = ({ id, t }) => {
                 </BtnWrap>
               </Text>
             </Column1 >
-            <Column2 data-aos="fade-down">
+            <Column2>
               <ImgWrap>
                 <img src={img1} alt='' />
               </ImgWrap>
             </Column2>
-          </SerRow>
-          <SerRow imgStart={false}>
+          </SerRow >
+          <SerRow imgStart={false} data-aos="fade-in">
             <Column1 left={true}>
               <Text>
                 <TopLine>{t("topline2")}</TopLine>
@@ -76,13 +76,13 @@ const SerSection = ({ id, t }) => {
                 </BtnWrap>
               </Text>
             </Column1>
-            <Column2 data-aos="fade-down">
+            <Column2>
               <ImgWrap>
                 <img src={img2} alt='' />
               </ImgWrap>
             </Column2>
           </SerRow>
-          <SerRow imgStart={true}>
+          <SerRow imgStart={true} data-aos="fade-in">
             <Column1 left={false}>
               <Text>
                 <TopLine>{t("topline3")}</TopLine>
@@ -104,13 +104,13 @@ const SerSection = ({ id, t }) => {
                 </BtnWrap>
               </Text>
             </Column1>
-            <Column2 data-aos="fade-down">
+            <Column2>
               <ImgWrap>
                 <img src={img4} alt='' />
               </ImgWrap>
             </Column2>
           </SerRow>
-          <SerRow imgStart={false}>
+          <SerRow imgStart={false} data-aos="fade-in">
             <Column1 left={true}>
               <Text>
                 <TopLine>{t("topline4")}</TopLine>
@@ -132,7 +132,7 @@ const SerSection = ({ id, t }) => {
                 </BtnWrap>
               </Text>
             </Column1>
-            <Column2 data-aos="fade-down">
+            <Column2>
               <ImgWrap>
                 <img src={img3} alt='' />
               </ImgWrap>
