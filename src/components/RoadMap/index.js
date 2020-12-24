@@ -10,11 +10,10 @@ const RoadMap = ({id, t}) => {
       <Timeline >
         <ItemContainer className='position' data-aos="fade-left">
           <Item>
-            <Title>Phase 1 2019.Q3-2020.Q4</Title>
-            <SubTitle>Gravity:</SubTitle>
-            <Text>Ultra-light Verification Protocol
-                  Map-PoS Consensus
-                  Map-VM and SMART System
+            <Title>{t("roadMapTitle1")}</Title>
+            <SubTitle>{t("roadMapSubTitle1")}</SubTitle>
+            <Text>
+            {t("roadMapSubDesc1")}
             </Text>
           </Item>
         </ItemContainer>
@@ -23,11 +22,10 @@ const RoadMap = ({id, t}) => {
       <Timeline>
         <ItemContainer data-aos="fade-right">
           <Item className='left'>
-            <Title>Phase 1 2019.Q3-2020.Q4</Title>
-            <SubTitle>Gravity:</SubTitle>
-            <Text className='alignRight'>Ultra-light Verification Protocol
-                  Map-PoS Consensus
-                  Map-VM and SMART System
+            <Title>{t("roadMapTitle2")}</Title>
+            <SubTitle>{t("roadMapSubTitle2")}</SubTitle>
+            <Text className='alignRight'>
+            {t("roadMapSubDesc2")}
             </Text>
           </Item>
         </ItemContainer>
@@ -36,11 +34,10 @@ const RoadMap = ({id, t}) => {
       <Timeline >
         <ItemContainer className='position' data-aos="fade-left">
           <Item>
-            <Title>Phase 1 2019.Q3-2020.Q4</Title>
-            <SubTitle>Gravity:</SubTitle>
-            <Text>Ultra-light Verification Protocol
-                  Map-PoS Consensus
-                  Map-VM and SMART System
+            <Title>{t("roadMapTitle3")}</Title>
+            <SubTitle>{t("roadMapSubTitle3")}:</SubTitle>
+            <Text>
+            {t("roadMapSubDesc3")}
             </Text>
           </Item>
         </ItemContainer>
@@ -49,11 +46,10 @@ const RoadMap = ({id, t}) => {
       <Timeline>
         <ItemContainer data-aos="fade-right">
           <Item className='left'>
-            <Title>Phase 1 2019.Q3-2020.Q4</Title>
-            <SubTitle>Gravity:</SubTitle>
-            <Text className='alignRight'>Ultra-light Verification Protocol
-                  Map-PoS Consensus
-                  Map-VM and SMART System
+            <Title>{t("roadMapTitle4")}</Title>
+            <SubTitle>{t("roadMapSubTitle4")}</SubTitle>
+            <Text className='alignRight'>
+            {t("roadMapSubDesc4")}
             </Text>
           </Item>
         </ItemContainer>

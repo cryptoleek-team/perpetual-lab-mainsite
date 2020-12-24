@@ -13,12 +13,12 @@ const SerSection = ({id, t}) => {
       <SerContent id={id}>
         <SerWrapper>
           <h1>{t("section3")}</h1>
-          <SerWrap>OTC EXCHANE BLOCKCHAIN ORACLE: TECHNICAL SUPPORT</SerWrap>
+          <SerWrap>{t("section3SerWrap")}</SerWrap>
           <SerRow imgStart={true}>
             <Column1 left={false}>
               <Text>
-                <TopLine>Yesbit OTC</TopLine>
-                <Heading>Fiat-Crypto OTC trading platform</Heading>
+                <TopLine>{t("topline1")}</TopLine>
+                <Heading>{t("topline1H")}</Heading>
                 <Subtitle>{t("subtitle1")}</Subtitle>
                 <BtnWrap left={true}>
                   <Button 
@@ -45,8 +45,8 @@ const SerSection = ({id, t}) => {
           <SerRow imgStart={false}>
             <Column1 left={true}>
               <Text>
-                <TopLine>KrawlCat</TopLine>
-                <Heading>A Generalized Oracle for Blockchains</Heading>
+                <TopLine>{t("topline2")}</TopLine>
+                <Heading>{t("topline2H")}</Heading>
                 <Subtitle>{t("subtitle2")}</Subtitle>
                 <BtnWrap left={false}>
                   <Button 
@@ -73,8 +73,8 @@ const SerSection = ({id, t}) => {
           <SerRow imgStart={true}>
             <Column1 left={false}>
               <Text>
-                <TopLine>Yesbit OTC</TopLine>
-                <Heading>Fiat-Crypto OTC trading platform</Heading>
+                <TopLine>{t("topline3")}</TopLine>
+                <Heading>{t("topline3H")}</Heading>
                 <Subtitle>{t("subtitle3")}</Subtitle>
                 <BtnWrap left={true}>
                   <Button 
@@ -101,8 +101,8 @@ const SerSection = ({id, t}) => {
           <SerRow imgStart={false}>
             <Column1 left={true}>
               <Text>
-                <TopLine>Yesbit OTC</TopLine>
-                <Heading>Fiat-Crypto OTC trading platform</Heading>
+                <TopLine>{t("topline4")}</TopLine>
+                <Heading>{t("topline4H")}</Heading>
                 <Subtitle>{t("subtitle4")}</Subtitle>
                 <BtnWrap left={false}>
                   <Button 

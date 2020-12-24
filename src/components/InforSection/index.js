@@ -25,27 +25,23 @@ const InforSection = ({id, t}) => {
         <BoxContent data-aos="fade-down">
           <Box>
             <img src={logo1} alt="logo" />
-            {/* <Title>Yesbit OTC</Title> */}
-            <SubTitle>OTC Trading platform</SubTitle>
-            <Description>A block transportation channel based on IBLT which can compress the block size</Description>
+            <Title>{t("service1")}</Title>
+            <Description>{t("service1Desc")}</Description>
           </Box>
           <Box>
             <img src={logo2} alt="logo" />
-            {/* <Title>KrawlCat</Title> */}
-            <SubTitle>OTC Trading platform</SubTitle>
-            <Description>A protocol under which the peer under different blockchain systems can discover</Description>
+            <Title>{t("service2")}</Title>
+            <Description>{t("service2Desc")}</Description>
           </Box>
           <Box>
             <img src={logo3} alt="logo" />
-            {/* <Title>Standardized P2P</Title> */}
-            <SubTitle>OTC Trading platform</SubTitle>
-            <Description>Provides the ability of one chain to validate the state of another chain underlow bandwidth</Description>
+            <Title>{t("service3")}</Title>
+            <Description>{t("service3Desc")}</Description>
           </Box>
           <Box>
             <img src={logo4} alt="logo" />
-            {/* <Title>KrawlCat</Title> */}
-            <SubTitle>OTC Trading platform</SubTitle>
-            <Description>A protocol under which the peer under different blockchain systems can discover</Description>
+            <Title>{t("service4")}</Title>
+            <Description>{t("service4Desc")}</Description>
           </Box>
         </BoxContent>
       </TextWrapper>
