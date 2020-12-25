@@ -44,7 +44,7 @@ const SerSection = ({ id, t }) => {
                     dark={1}
                     dark2={1}
                   >
-                    Get Start</Button>
+                    {t("startBtn")}</Button>
                 </BtnWrap>
               </Text>
             </Column1 >
@@ -72,7 +72,7 @@ const SerSection = ({ id, t }) => {
                     dark={1}
                     dark2={1}
                   >
-                    Get Start</Button>
+                    {t("soonBtn")}</Button>
                 </BtnWrap>
               </Text>
             </Column1>
@@ -100,7 +100,7 @@ const SerSection = ({ id, t }) => {
                     dark={1}
                     dark2={1}
                   >
-                    Get Start</Button>
+                    {t("soonBtn")}</Button>
                 </BtnWrap>
               </Text>
             </Column1>
@@ -128,7 +128,7 @@ const SerSection = ({ id, t }) => {
                     dark={1}
                     dark2={1}
                   >
-                    Get Start</Button>
+                    {t("soonBtn")}</Button>
                 </BtnWrap>
               </Text>
             </Column1>
