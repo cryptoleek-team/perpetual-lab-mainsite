@@ -54,6 +54,7 @@ export const Box = styled.div`
   margin-bottom: 60px;
   text-align: center;
   display: inline-block;
+  vertical-align:top;
 
   img {
     padding: 10px;

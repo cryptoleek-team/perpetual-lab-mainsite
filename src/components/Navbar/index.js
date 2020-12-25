@@ -14,7 +14,7 @@ import {
 } from './NavbarElements';
 import logo from '../../images/Perpetual Labs-06.png';
 
-const Navbar = ({ toggle, changeLanguage, ln, t, i18n }) => {
+const Navbar = ({ toggle, changeLanguage, ln, t }) => {
   const [scrollNav, setScrollNav] = useState(false)
 
   const changeNav = () => {

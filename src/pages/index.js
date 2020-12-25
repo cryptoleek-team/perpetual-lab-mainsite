@@ -15,7 +15,7 @@ import 'aos/dist/aos.css';
 const Home = () => {
   useEffect(() => {
     Aos.init({ 
-      duration: 600,
+      duration: 2000,
       disable: function() {
         return window.innerWidth < 768;
       }
