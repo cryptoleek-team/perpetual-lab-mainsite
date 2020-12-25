@@ -26,10 +26,10 @@
   "topline3H": "一个改变整个社交的领域的去中心化金融应用",
   "topline4H": "全球首创的加密货币NFT，收藏平交易平台",
   "section3":"了解我们",
-  "subtitle1":"世界级加密交易所、白标签服务、专业咨询服务等。",
+  "subtitle1":"加密基金投资，专门的项目研究，包括Sushiswap analytics, Ren analytics, Uniswap analytics和Sol analytics。第一个进入GRT的基金获得了100倍的收益。",
   "subtitle2": "区块链钱包支持比特币、LTC、BCH、ETH、EOS、ERC20等多种主流币。我们在钱包中添加了DEFI功能，包括通证即时交换、跨链通证交换、押注、LP挖掘等。",
   "subtitle3": "包括DEFI space、NFT space和STO space在内的世界级DAPP。DAPP孵化与开发。",
-  "subtitle4":"加密基金投资，专门的项目研究，包括Sushiswap analytics, Ren analytics, Uniswap analytics和Sol analytics。第一个进入GRT的基金获得了100倍的收益。",
+  "subtitle4":"全球首创的加密货币NFT交易平台，打通链下实体收藏品，通过链上NFT代币形式进行自由流通买卖，可以交易，也可以领取实物。",
   "roadMapTitle1": "2020年6月",
   "roadMapTitle2": "2021年1月",
   "roadMapTitle3": "2021年6月",
@@ -50,5 +50,8 @@
 
   "whyJoinUs": "为什么加入我们团队？",
   "whyJoinUsDesc": "员工是我们最重要的资产，照顾他们一直是我们的头等大事。除了我们提供的有竞争力的薪酬外，我们所有的全职固定员工都享有团体健康福利，包括牙科，视力和处方。除此之外，我们还会举办每月的团队建设活动以及员工生日庆祝活动。",
-  "joinUsNow": "如果你与我们志趣相投，请随时电邮我们！"
+  "joinUsNow": "如果你与我们志趣相投，请随时电邮我们！",
+
+  "startBtn": "立刻体验 ➡️",
+  "soonBtn": "敬请期待"
 }
