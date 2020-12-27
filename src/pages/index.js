@@ -16,9 +16,6 @@ const Home = () => {
   useEffect(() => {
     Aos.init({ 
       duration: 2000,
-      disable: function() {
-        return window.innerWidth < 768;
-      }
     });
   }, []);
 
