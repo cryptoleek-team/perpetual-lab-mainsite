@@ -68,6 +68,7 @@ export const Column1 = styled.div`
 
   @media screen and (max-width: 768px) {
     text-align: center;
+    padding: 0 35px;
   }
 `
 

@@ -64,6 +64,11 @@ export const Box = styled.div`
   @media (max-width: 768px){
     width: 90%;
   }
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    padding: 0 0;
+  }
 `
 
 export const Title = styled.h2`

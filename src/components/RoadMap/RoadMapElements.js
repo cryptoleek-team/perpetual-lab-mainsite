@@ -74,7 +74,7 @@ export const Timeline = styled.div`
     background-color: #000;
     content: '';
     position: absolute;
-    left: calc(50%);
+    left: calc(50% - 1px);
     width: 2px;
     height: ${({ length }) => (length ? '155px' : '130px')};
   }

@@ -34,7 +34,7 @@ const SerSection = ({ id, t }) => {
                 <Subtitle>{t("subtitle1")}</Subtitle>
                 <BtnWrap left={true}>
                   <Button
-                    to='home'
+                    href="https://www.xpdax.com/"
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -62,7 +62,6 @@ const SerSection = ({ id, t }) => {
                 <Subtitle>{t("subtitle2")}</Subtitle>
                 <BtnWrap left={false}>
                   <Button
-                    to='home'
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -90,7 +89,6 @@ const SerSection = ({ id, t }) => {
                 <Subtitle>{t("subtitle3")}</Subtitle>
                 <BtnWrap left={true}>
                   <Button
-                    to='home'
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -118,7 +116,6 @@ const SerSection = ({ id, t }) => {
                 <Subtitle>{t("subtitle4")}</Subtitle>
                 <BtnWrap left={false}>
                   <Button
-                    to='home'
                     smooth={true}
                     duration={500}
                     spy={true}
