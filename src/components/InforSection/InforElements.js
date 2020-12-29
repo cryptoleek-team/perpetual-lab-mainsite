@@ -24,7 +24,7 @@ export const Heading = styled.h2`
   font-size: 35px;
   line-height: 1.1;
   font-weight: 600;
-  color: #e2c3ff;
+  color: #592e94;
   text-align: center;
 
   @media screen and (max-width: 480px) {
@@ -76,7 +76,7 @@ export const Title = styled.h2`
   padding: 0 3.6%;
   font-size: 22px;
   font-weight: 500;
-  color: #e2c3ff;
+  color: #592e94;
   line-height: 1.5;
   margin: 0 0 8px; 
   letter-spacing: 0; 

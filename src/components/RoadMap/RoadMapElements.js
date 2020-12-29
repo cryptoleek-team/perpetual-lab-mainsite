@@ -7,7 +7,7 @@ export const RoadContent = styled.div`
   h1 {
     text-align: center;
     padding: 30px auto;
-    color: #e2c3ff;
+    color: #592e94;
   }
 
   @media screen and (max-width: 768px) {
@@ -86,6 +86,7 @@ export const ItemContainer = styled.div`
   position: relative;
   margin: -20px 0;
   width: 50%;
+  overflow:hidden;
 
   &.position {
     align-self: flex-end;
@@ -119,7 +120,7 @@ export const Item = styled.div`
 
   @media screen and (max-width: 768px) {
     margin: -10px 40px -10px -20px;
-    width: 430px;
+    max-width: 430px;
 
     &.left {
       align-items: flex-start;

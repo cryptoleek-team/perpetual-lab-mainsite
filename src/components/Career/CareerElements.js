@@ -14,7 +14,7 @@ export const SerWrapper = styled.div`
   display: grid;
   z-index: 1;
   height; 860px;
-  width: 100%;
+  width: 95%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
