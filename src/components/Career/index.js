@@ -12,7 +12,7 @@ import {
   Subtitle,
   ImgWrap
 } from './CareerElements';
-import img1 from '../../images/service.png';
+import img1 from '../../images/Company.png';
 
 const Career = ({ id, t }) => {
   return (

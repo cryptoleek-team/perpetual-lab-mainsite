@@ -151,6 +151,3 @@ export const ImgWrap = styled.div`
     padding-right: 0;
   }
 `
-
-
-

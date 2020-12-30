@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Button = styled.a`
+export const Button = styled.button`
   text-decoration: none;
   border-radius: 50px;
   background: ${({ primary }) => (primary ? '#e2c3ff' : '#010606')};

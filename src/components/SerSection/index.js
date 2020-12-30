@@ -14,18 +14,52 @@ import {
   ImgWrap
 } from './ServiceElements'
 import { Button } from '../ButtonElements';
-import img1 from '../../images/service.png';
+import img from '../../images/service.png';
+import img1 from '../../images/investment.png';
 import img2 from '../../images/service1.png';
 import img3 from '../../images/service2.png';
 import img4 from '../../images/service3.png';
 
 const SerSection = ({ id, t }) => {
+  const newPage = () => {
+    const w=window.open('about:blank');
+    w.location.href='https://www.xpdax.com/'
+  }
+
   return (
     <>
       <SerContent id={id}>
         <SerWrapper>
           <h1>{t("section3")}</h1>
           <SerWrap>{t("section3SerWrap")}</SerWrap>
+          <SerRow imgStart={false} data-aos="fade-in">
+            <Column1 left={true}>
+              <Text>
+                <TopLine>{t("toplineAdd1")}</TopLine>
+                <Heading>{t("toplineH")}</Heading>
+                <Subtitle>{t("subtitle2")}</Subtitle>
+                <BtnWrap left={false}>
+                  <Button
+                    onClick={newPage}
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact='true'
+                    offset={-80}
+                    primary={1}
+                    dark={1}
+                    dark2={1}
+                  >
+                    {t("startBtn")}</Button>
+                </BtnWrap>
+              </Text>
+            </Column1>
+            <Column2>
+              <ImgWrap>
+                <img src={img} alt='' />
+              </ImgWrap>
+            </Column2>
+          </SerRow>
           <SerRow imgStart={true} data-aos="fade-in">
             <Column1 left={false}>
               <Text>
@@ -34,7 +68,6 @@ const SerSection = ({ id, t }) => {
                 <Subtitle>{t("subtitle1")}</Subtitle>
                 <BtnWrap left={true}>
                   <Button
-                    href="https://www.xpdax.com/"
                     smooth={true}
                     duration={500}
                     spy={true}
