@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import {
   SerContent,
   SerWrapper,
@@ -14,21 +14,38 @@ import {
   ImgWrap
 } from './ServiceElements'
 import { Button } from '../ButtonElements';
-import img from '../../images/service.png';
+import img from '../../images/exhange.png';
 import img1 from '../../images/investment.png';
 import img2 from '../../images/service1.png';
 import img3 from '../../images/service2.png';
 import img4 from '../../images/service3.png';
+import { ReactTypeformEmbed } from 'react-typeform-embed';
 
-const SerSection = ({ id, t }) => {
+const SerSection = ({ id, url, t }) => {
+  const typeformEmbed = useRef(null);
+  
   const newPage = () => {
     const w=window.open('about:blank');
     w.location.href='https://www.xpdax.com/'
   }
 
+  const openForm = () => {
+    typeformEmbed.current.typeform.open();
+    console.log(url)
+  }
+
   return (
     <>
       <SerContent id={id}>
+      <ReactTypeformEmbed
+          popup
+          autoOpen={false}
+          url={ url } 
+          hideHeaders
+          hideFooter
+          style={{ top: 100 }}
+          ref={typeformEmbed}
+        />
         <SerWrapper>
           <h1>{t("section3")}</h1>
           <SerWrap>{t("section3SerWrap")}</SerWrap>
@@ -68,6 +85,7 @@ const SerSection = ({ id, t }) => {
                 <Subtitle>{t("subtitle1")}</Subtitle>
                 <BtnWrap left={true}>
                   <Button
+                    onClick={openForm}
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -77,7 +95,7 @@ const SerSection = ({ id, t }) => {
                     dark={1}
                     dark2={1}
                   >
-                    {t("startBtn")}</Button>
+                    {t("investBtn")}</Button>
                 </BtnWrap>
               </Text>
             </Column1 >
