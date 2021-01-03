@@ -21,8 +21,9 @@ import img3 from '../../images/service2.png';
 import img4 from '../../images/service3.png';
 import { ReactTypeformEmbed } from 'react-typeform-embed';
 
-const SerSection = ({ id, url, t }) => {
+const SerSection = ({ id, ln, t }) => {
   const typeformEmbed = useRef(null);
+  const typeformRef = useRef(null);
   
   const newPage = () => {
     const w=window.open('about:blank');
@@ -30,8 +31,11 @@ const SerSection = ({ id, url, t }) => {
   }
 
   const openForm = () => {
-    typeformEmbed.current.typeform.open();
-    console.log(url)
+    if (ln==="English") {
+      typeformEmbed.current.typeform.open();
+    } else {
+      typeformRef.current.typeform.open();
+    }
   }
 
   return (
@@ -40,11 +44,20 @@ const SerSection = ({ id, url, t }) => {
       <ReactTypeformEmbed
           popup
           autoOpen={false}
-          url={ url } 
+          url="https://yockwqcrv0b.typeform.com/to/gycUPJQi"
           hideHeaders
           hideFooter
           style={{ top: 100 }}
           ref={typeformEmbed}
+        />
+        <ReactTypeformEmbed
+          popup
+          autoOpen={false}
+          url="https://yockwqcrv0b.typeform.com/to/Ch2ITYLm"
+          hideHeaders
+          hideFooter
+          style={{ top: 100 }}
+          ref={typeformRef}
         />
         <SerWrapper>
           <h1>{t("section3")}</h1>
@@ -53,8 +66,8 @@ const SerSection = ({ id, url, t }) => {
             <Column1 left={true}>
               <Text>
                 <TopLine>{t("toplineAdd1")}</TopLine>
-                <Heading>{t("toplineH")}</Heading>
-                <Subtitle>{t("subtitle2")}</Subtitle>
+                <Heading>{t("toplineAH")}</Heading>
+                <Subtitle>{t("subtitleA")}</Subtitle>
                 <BtnWrap left={false}>
                   <Button
                     onClick={newPage}

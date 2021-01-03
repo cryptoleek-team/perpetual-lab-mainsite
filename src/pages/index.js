@@ -20,7 +20,6 @@ const Home = () => {
   }, []);
 
   const [isOpen, setIsOpen] = useState(false);
-  const [url, setURL] = useState("https://yockwqcrv0b.typeform.com/to/gycUPJQi");
   
   const { t } = useTranslation();
   const [ln, setLn] = useState('English');
@@ -35,11 +34,6 @@ const Home = () => {
 
   useEffect(() => {
     i18n.changeLanguage(ln);
-    if (ln==='English') {
-      setURL("https://yockwqcrv0b.typeform.com/to/gycUPJQi")
-    } else {
-      setURL("https://yockwqcrv0b.typeform.com/to/Ch2ITYLm")
-    }
   }, [ln]);
 
   const toggle = () => {
@@ -52,7 +46,7 @@ const Home = () => {
       <Navbar toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
       <HeroSection  id='home' t={t}/>
       <InforSection id='about' ln={ln} t={t}/>
-      <SerSection id='services' url={url} t={t}/>
+      <SerSection id='services' ln={ln} t={t}/>
       <RoadMap id='roadmap' t={t} ln={ln}/>
       <Career id='career' t={t}/> 
       <Footer />
