@@ -9,10 +9,10 @@ import {
   Description,
   BoxContent
 } from './InforElements';
-import logo1 from '../../images/crypto.png';
-import logo2 from '../../images/bitcoin.png';
-import logo3 from '../../images/defi.png';
-import logo4 from '../../images/invest.png';
+import logo1 from '../../images/exchange1.png';
+import logo2 from '../../images/services.png';
+import logo3 from '../../images/wallet.png';
+import logo4 from '../../images/decentre.png';
 
 const InforSection = ({ id, t }) => {
 

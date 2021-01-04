@@ -146,7 +146,7 @@ export const ImgWrap = styled.div`
   height: 100%;
 
   img {
-    width: 80%;
+    width: 40%;
     margin: 0 0 10px 0;
     padding-right: 0;
   }

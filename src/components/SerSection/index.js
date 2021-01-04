@@ -14,11 +14,11 @@ import {
   ImgWrap
 } from './ServiceElements'
 import { Button } from '../ButtonElements';
-import img from '../../images/exhange.png';
-import img1 from '../../images/investment.png';
-import img2 from '../../images/service1.png';
-import img3 from '../../images/service2.png';
-import img4 from '../../images/service3.png';
+import img from '../../images/crypto3.png';
+import img1 from '../../images/investment1.png';
+import img2 from '../../images/blocWallet.png';
+import img3 from '../../images/nft.png';
+import img4 from '../../images/social.png';
 import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 const SerSection = ({ id, ln, t }) => {
