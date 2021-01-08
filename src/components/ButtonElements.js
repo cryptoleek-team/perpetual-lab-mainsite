@@ -5,7 +5,7 @@ export const Button = styled.button`
   border-radius: 50px;
   background: ${({ primary }) => (primary ? '#e2c3ff' : '#010606')};
   white-space: nowrap;
-  padding: 10px 30px ;
+  padding: 8px 30px 11px 30px;
   color: ${({ dark }) => (dark ? '#010606' : '#fff')};
   font-size: 18px ;
   font-weight: 300;
@@ -23,7 +23,7 @@ export const Button = styled.button`
   }
 
   @media screen and (max-width: 768px) {
-    padding: 8px 20px ;
+    padding: 8px 20px 10px 20px;
     font-size: 16px ;
   }
 `;

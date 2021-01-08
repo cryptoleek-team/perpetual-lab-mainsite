@@ -135,6 +135,7 @@ export const Subtitle = styled.p`
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: ${({ left }) => (left ? 'flex-start' : 'flex-end')};
+  vertical-align: center;
 
   @media screen and (max-width: 768px) {
     justify-content: center;
@@ -148,6 +149,6 @@ export const ImgWrap = styled.div`
   img {
     width: 40%;
     margin: 0 0 10px 0;
-    padding-right: 0;
+    padding-right: 0; 
   }
 `
