@@ -37,7 +37,10 @@ const Navbar = ({ toggle, changeLanguage, ln, t }) => {
   }
 
   useEffect(() => {
-    window.addEventListener('scroll', changeNav)
+      window.addEventListener('scroll', changeNav)
+      return () => {
+        window.removeEventListener('scroll', changeNav)
+      }
   }, [])
 
   const toggleHome = () => {

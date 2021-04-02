@@ -11,13 +11,13 @@ import 'aos/dist/aos.css';
 const Otc = () => {
 
   // useEffect(() => {
-  //   Aos.init({ 
+  //   Aos.init({
   //     duration: 2000,
   //   });
   // }, []);
 
   const [isOpen, setIsOpen] = useState(false);
-  
+
   const { t } = useTranslation();
   const [ln, setLn] = useState('English');
 
@@ -26,7 +26,7 @@ const Otc = () => {
       setLn('中文');
     } else {
       setLn('English');
-    } 
+    }
   };
 
   useEffect(() => {
@@ -40,7 +40,6 @@ const Otc = () => {
 
   return (
     <div>
-      <OtcSidebar isOpen={isOpen} toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
       <OtcNavbar toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
       <OtcHeroSection t={t}/>
       <h2>This is OTC</h2>

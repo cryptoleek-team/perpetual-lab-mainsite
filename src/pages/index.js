@@ -14,13 +14,13 @@ import 'aos/dist/aos.css';
 
 const Home = () => {
   useEffect(() => {
-    Aos.init({ 
+    Aos.init({
       duration: 2000,
     });
   }, []);
 
   const [isOpen, setIsOpen] = useState(false);
-  
+
   const { t } = useTranslation();
   const [ln, setLn] = useState('English');
 
@@ -29,7 +29,7 @@ const Home = () => {
       setLn('中文');
     } else {
       setLn('English');
-    } 
+    }
   };
 
   useEffect(() => {
@@ -48,7 +48,7 @@ const Home = () => {
       <InforSection id='about' ln={ln} t={t}/>
       <SerSection id='services' ln={ln} t={t}/>
       <RoadMap id='roadmap' t={t} ln={ln}/>
-      <Career id='career' t={t}/> 
+      <Career id='career' t={t}/>
       <Footer />
     </div>
   );
