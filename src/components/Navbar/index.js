@@ -10,8 +10,19 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavBtn
+  NavBtn,
+  NavOtcLinks
 } from './NavbarElements';
+
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link
+// } from "react-router-dom";
+
+// import Otc from '../../pages';
+
 import logo from '../../images/Perpetual Labs-06.png';
 
 const Navbar = ({ toggle, changeLanguage, ln, t }) => {
@@ -64,6 +75,13 @@ const Navbar = ({ toggle, changeLanguage, ln, t }) => {
                   exact='true'
                   offset={-80}
                 >{t("about")}</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavOtcLinks
+                  to="/otc"
+                  exact
+                  offset={-80}
+                >{t("otc")}</NavOtcLinks>
               </NavItem>
               <NavItem>
                 <NavLinks

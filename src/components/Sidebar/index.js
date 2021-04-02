@@ -6,7 +6,8 @@ import {
   SidebarWrapper,
   SidebarLink,
   SidebarMenu,
-  SideBtnWrap
+  SideBtnWrap,
+  SidebarOtcLink
 } from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle, changeLanguage, ln, t }) => {
@@ -19,6 +20,7 @@ const Sidebar = ({ isOpen, toggle, changeLanguage, ln, t }) => {
         <SidebarMenu>
           <SidebarLink to='home' onClick={toggle}>{t("home")}</SidebarLink>
           <SidebarLink to='about' onClick={toggle}>{t("about")}</SidebarLink>
+          <SidebarOtcLink to='/'>{t("otc")}</SidebarOtcLink>
           <SidebarLink to='services' onClick={toggle}>{t("services")}</SidebarLink>
           <SidebarLink to='roadmap' onClick={toggle}>{t("roadMap")}</SidebarLink>
           <SidebarLink to='career' onClick={toggle}>{t("career")}</SidebarLink>

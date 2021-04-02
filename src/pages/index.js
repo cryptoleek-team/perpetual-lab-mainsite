@@ -41,7 +41,7 @@ const Home = () => {
   };
 
   return (
-    <>
+    <div>
       <Sidebar isOpen={isOpen} toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
       <Navbar toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
       <HeroSection  id='home' t={t}/>
@@ -50,7 +50,7 @@ const Home = () => {
       <RoadMap id='roadmap' t={t} ln={ln}/>
       <Career id='career' t={t}/> 
       <Footer />
-    </>
+    </div>
   );
 };
 
