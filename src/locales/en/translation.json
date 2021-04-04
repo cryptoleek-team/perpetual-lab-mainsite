@@ -60,5 +60,39 @@
 
   "startBtn": "Get Start ➡️",
   "soonBtn": "Coming Soon",
-  "investBtn": "Investment"
+  "investBtn": "Investment",
+
+  "otcTitle": "Australian Bitcoin and crypto OTC trading desk",
+  "otcSubtitle": "Australia's premier OTC service for SMSFs, institutional clients and sophisticated high net worth investors.",
+  "otcInfoTitle":"OTC desk features",
+  "otcInfoSubtitle1":"Fast settlements",
+  "otcInfoDesc1":"Trade crypto in AUD, USD, NZD and SGD discreetly, securely and quickly. Trades typically settled on the same day.",
+  "otcInfoSubtitle2":"Deep global liquidity",
+  "otcInfoDesc2":"Whether you’re looking to trade $100,000 or $10 million, we can execute the order though our deep local and global networks.",
+  "otcInfoSubtitle3":"Instant support",
+  "otcInfoDesc3":"The OTC desk is located in Melboune. We operate Monday to Friday, 9am-5pm Australian Eastern Standard Time (AEST).",
+  "otcInfoSubtitle4":"Professional trader",
+  "otcInfoDesc4":"Our OTC team is comprised of veteran traders. You will have exclusive access to our experts every step of the way, from account creation through to trade settlement and post trade insights.",
+  "otcInfoSubtitle5":"End-to-end service",
+  "otcInfoDesc5":"We provide end-to-end service right from the initial expert consultation all the way to trade execution and same day settlement. We work with our clients to answer any questions to build comfort and trust.",
+  "otcInfoSubtitle6":"All crypto assets",
+  "otcInfoDesc6":"We offer OTC desk support for all digital assets listed on exchanges including Bitcoin, Ethereum, XRP (Ripple), BCH, EOS and more. Our Clients can buy in AUD, USD, NZD and SGD.",
+
+  "otcPromoSubTitle1":"Low fees",
+  "otcPromoDesc1":"Fee free-deposits available. Trading fees from 0.5% down to 0.02%",
+  "otcPromoSubTitle2":"Voted #1",
+  "otcPromoDesc2":"Voted Australia’s Best Digital Currency Exchange",
+  "otcPromoSubTitle3":"24/7 support",
+  "otcPromoDesc3":"Fast, world-class support",
+
+  "otcBeneTitle":"Advantage of OTC crypto trading",
+  "otcBeneSubtitle1":"Reduce slippage",
+  "otcBeneDesc1":"One key advantage of using a crypto/Bitcoin OTC service such as Independent Reserve is that market slippage is kept to a minimum. This means the gap between the cheapest price and the actual price for the volume you want to trade is minimized. The larger the trade size, the more you will save on slippage costs when executing via OTC.",
+  "otcBeneSubtitle2":"Increased privacy",
+  "otcBeneDesc2":"Since OTC orders are not visible or reported to the market, there is less chance your trade will signal the market and move prices away from you before you are filled.",
+  "otcBeneSubtitle3":"Market insight",
+  "otcBeneDesc3":"Whilst all trades are confidential, professional brokers can provide reporting and market color, which institutional traders often find valuable when making trading decisions. It is important to note that Independent Reserve does not provide financial advice. All readers and clients are strongly encouraged to conduct their own personal research.",
+  "otcBeneSubtitle4":"Deeper liquidity",
+  "otcBeneDesc4":"OTC desks provide access to deep pools of liquidity by tapping into their networks of institutional crypto buyers and sellers, such as miners, ICO advisories, family offices, and investment funds."
+
 }

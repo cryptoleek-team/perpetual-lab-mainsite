@@ -59,5 +59,38 @@
 
   "startBtn": "立刻体验 ➡️",
   "soonBtn": "敬请期待",
-  "investBtn": "投资意向"
+  "investBtn": "投资意向",
+  
+  "otcTitle":"澳大利亚比特币和加密OTC交易柜台",
+  "otcSubtitle":"澳大利亚为SMSF，机构客户和经验丰富的高净值投资者提供的首要OTC服务。",
+  "otcInfoTitle":"OTC特色",
+  "otcInfoSubtitle1":"快速结算",
+  "otcInfoDesc1":"谨慎，安全，快速地以AUD，USD，NZD和SGD交易加密货币。交易通常在同一天结算。",
+  "otcInfoSubtitle2":"深厚的全球流动性",
+  "otcInfoDesc2":"无论您是想交易100,000美元还是1000万美元，我们都可以通过我们广泛的本地和全球网络执行订单。",
+  "otcInfoSubtitle3":"即时支持",
+  "otcInfoDesc3":"OTC服务台位于墨尔本。我们的营业时间为澳洲东部时间时间周一至周五上午9点至下午5点。",
+  "otcInfoSubtitle4":"专业交易员",
+  "otcInfoDesc4":"我们的OTC团队由资深交易员组成。从创建账户到交易结算和发布交易见解，您将在每个步骤中都可以独享我们的专家的权限。",
+  "otcInfoSubtitle5":"端对端服务",
+  "otcInfoDesc5":"从最初的专家咨询一直到交易执行和当天结算，我们提供端到端的服务。我们与客户合作，解答所有问题，以建立舒适感和信任感。",
+  "otcInfoSubtitle6":"所有加密资产",
+  "otcInfoDesc6":"我们为交易所列出的所有数字资产提供场外交易柜台支持，包括比特币，以太坊，XRP（Ripple），BCH，EOS等。购买澳元，美元，纽元和新元。",
+
+  "otcPromoSubTitle1":"费用低",
+  "otcPromoDesc1":"可免费付费。交易费从0.5％降至0.02％",
+  "otcPromoSubTitle2":"投票＃1",
+  "otcPromoDesc2":"投票选为澳大利亚最佳数字货币交易所”",
+  "otcPromoSubTitle3":"24/7支持",
+  "otcPromoDesc3":"快速，世界一流的支持",
+
+  "otcBeneTitle":"OTC加密交易的优势",
+  "otcBeneSubtitle1":"减少滑点",
+  "otcBeneDesc1":"使用加密货币/比特币场外交易服务（例如，独立储备金）的一个主要优势是将市场滑移保持在最低水平。这意味着最便宜的价格与想要交易量的实际价格之间的差距是交易规模越大，通过OTC执行交易时，您将节省更多的滑点成本。",
+  "otcBeneSubtitle2":"提高个人隐私",
+  "otcBeneDesc2":"由于场外交易订单不可见或未向市场报告，因此您的交易在成交之前将很少有机会向市场发出信号并从您手中撤走价格。",
+  "otcBeneSubtitle3":"市场洞察力",
+  "otcBeneDesc3":"尽管所有交易都是机密的，但是专业经纪人可以提供报告和市场颜色，机构交易员在做出交易决定时通常会发现它们很有价值。请注意，独立储备金不提供财务建议。所有读者和客户都是强烈建议进行自己的个人研究。",
+  "otcBeneSubtitle4":"更深的流动性",
+  "otcBeneDesc4":"OTC服务台通过利用其机构加密货币买卖双方的网络（例如矿工，ICO咨询，家族办公室和投资基金）提供了深层流动性的通道。"
 }
