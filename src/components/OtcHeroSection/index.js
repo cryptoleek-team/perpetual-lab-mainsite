@@ -1,9 +1,8 @@
 import React,{useRef,useEffect} from 'react';
-import Video from '../../videos/video.mp4';
 import {
   HeroContainer,
   HeroBg,
-  VideoBg,
+  ImgBg,
   HeroContent,
   HeroH1,
   HeroP,
@@ -11,6 +10,7 @@ import {
   HeroBox2
 } from './OtcHeroElements';
 import * as typeformEmbed from "@typeform/embed";
+import otcBg from '../../images/OTC Background.jpg'
 
 const OtcHeroSection = ({ t }) => {
 
@@ -30,7 +30,7 @@ const OtcHeroSection = ({ t }) => {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+        <ImgBg src={otcBg} alt="otc background" />
       </HeroBg>
       <HeroContent>
         <HeroBox1>

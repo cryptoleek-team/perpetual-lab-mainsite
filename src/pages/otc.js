@@ -8,16 +8,16 @@ import OtcBeneSection from "../components/OtcBeneSection"
 import Footer from '../components/Footer';
 import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
-//import Aos from "aos";
+import Aos from "aos";
 import 'aos/dist/aos.css';
 
 const Otc = () => {
 
-  // useEffect(() => {
-  //   Aos.init({
-  //     duration: 2000,
-  //   });
-  // }, []);
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+    });
+  }, []);
 
   const [isOpen, setIsOpen] = useState(false);
 
