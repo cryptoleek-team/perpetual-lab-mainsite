@@ -15,9 +15,11 @@
     "react-dom": "^17.0.1",
     "react-i18next": "^11.8.4",
     "react-icons": "^4.1.0",
+    "react-responsive-carousel": "^3.2.18",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-scroll": "^1.8.1",
+    "react-tsparticles": "^1.25.0",
     "react-typeform-embed": "^0.2.1",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"

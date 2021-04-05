@@ -12,21 +12,34 @@ import {
 import * as typeformEmbed from "@typeform/embed";
 import otcBg from '../../images/OTC Background.jpg'
 
-const OtcHeroSection = ({ t }) => {
+const OtcHeroSection = ({ ln,t }) => {
 
   const typeformRef = useRef(null);
 
   useEffect(() => {
+    if(ln === 'English'){
       typeformEmbed.makeWidget(
-          typeformRef.current,
-          "https://lkdxb8kibs5.typeform.com/to/oHL5KBHn",
-          {
-              hideFooter: true,
-              hideHeaders: true,
-              opacity: 80,
-          }
-      );
-  }, [typeformRef]);
+        typeformRef.current,
+        "https://lkdxb8kibs5.typeform.com/to/oHL5KBHn",
+        {
+            hideFooter: true,
+            hideHeaders: true,
+            opacity: 80,
+        }
+    );
+  }else{
+    typeformEmbed.makeWidget(
+      typeformRef.current,
+      "https://lkdxb8kibs5.typeform.com/to/NBgMKs7J",
+      {
+          hideFooter: true,
+          hideHeaders: true,
+          opacity: 80,
+      }
+  );
+  }
+      
+  }, [ln,typeformRef]);
   return (
     <HeroContainer>
       <HeroBg>

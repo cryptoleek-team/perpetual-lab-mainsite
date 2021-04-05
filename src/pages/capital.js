@@ -1,17 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import OtcSidebar from '../components/OtcSidebar';
 import OtcNavbar from '../components/OtcNavbar';
-import OtcHeroSection from '../components/OtcHeroSection';
-import OtcInfoSection from '../components/OtcInfoSection'
-import OtcPromoSection from '../components/OtcPromoSection'
-import OtcBeneSection from "../components/OtcBeneSection"
+import CapitalHeroSection from '../components/CaptialHeroSection'
+import CapitalInfoSection from "../components/CapitialInfoSection"
+import CapitalPromoSection from "../components/CapitalPromoSection"
+import CapitalApproachSection from "../components/CapitalApproachSecction"
+import CapitalInsightSection from "../components/CapitalInsightSection"
 import Footer from '../components/Footer';
 import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 
-const Otc = () => {
+const Capital = () => {
 
   useEffect(() => {
     Aos.init({
@@ -45,13 +46,14 @@ const Otc = () => {
     <div>
       <OtcSidebar isOpen={isOpen} toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
       <OtcNavbar toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
-      <OtcHeroSection ln={ln} t={t}/>
-      <OtcInfoSection t={t}></OtcInfoSection>
-      <OtcPromoSection t={t}></OtcPromoSection>
-      <OtcBeneSection t={t}></OtcBeneSection>
+      <CapitalHeroSection t={t}/>
+      <CapitalInfoSection t={t}/>
+      <CapitalPromoSection t={t}/>
+      <CapitalApproachSection t={t}/>
+      <CapitalInsightSection t={t}/>
       <Footer />
   </div>
   );
 };
 
-export default Otc;
+export default Capital;

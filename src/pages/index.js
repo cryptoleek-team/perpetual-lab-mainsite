@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Sidebar from '../components/Sidebar';
-import Navbar from '../components/Navbar';
+import OtcSidebar from '../components/OtcSidebar';
+import OtcNavbar from '../components/OtcNavbar';
 import HeroSection from '../components/HeroSection';
 import InforSection from '../components/InforSection';
 import SerSection from '../components/SerSection';
@@ -42,8 +42,8 @@ const Home = () => {
 
   return (
     <div>
-      <Sidebar isOpen={isOpen} toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
-      <Navbar toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
+      <OtcSidebar isOpen={isOpen} toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
+      <OtcNavbar toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
       <HeroSection  id='home' t={t}/>
       <InforSection id='about' ln={ln} t={t}/>
       <SerSection id='services' ln={ln} t={t}/>
