@@ -54,7 +54,7 @@ const OtcHeroSection = ({ ln,t }) => {
         </HeroBox1>
 
         <HeroBox2>
-          <div ref={typeformRef} style={{ height: "400px", width: "100%" }}></div>
+          <div ref={typeformRef} style={{ height: "450px", width: "100%" }}></div>
         </HeroBox2>
       </HeroContent>
     </HeroContainer>
