@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+import { HashRouter as Router, Route} from 'react-router-dom';
 import Home from './pages/index';
 import Otc from './pages/otc';
 import ScrollToTop from './components/ScrollToTop';
