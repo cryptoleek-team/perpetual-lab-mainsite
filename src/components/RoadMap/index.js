@@ -40,7 +40,7 @@ const RoadMap = ({id, t, ln}) => {
           <ItemContainer className='position'>
             <Item data-aos="fade-left">
               <Title>{t("roadMapTitle3")}</Title>
-              <SubTitle position={true}>{t("roadMapSubTitle3")}:</SubTitle>
+              <SubTitle position={true}>{t("roadMapSubTitle3")}</SubTitle>
               <Text>
               {t("roadMapSubDesc3")}
               </Text>

@@ -21,11 +21,6 @@ const OtcPromoSection = ({t})=>{
                     <PromoTitle>{t('otcPromoSubTitle2')}</PromoTitle>
                     <PromoDesc>{t('otcPromoDesc2')}</PromoDesc>
                 </PromoWrapper>
-
-                <PromoWrapper>
-                    <PromoTitle>{t('otcPromoSubTitle3')}</PromoTitle>
-                    <PromoDesc>{t('otcPromoDesc3')}</PromoDesc>
-                </PromoWrapper>
             </PromoBox>
         </PromoContainer>
     )

@@ -15,7 +15,6 @@ const CapitalInfoSection = ({t})=>{
                 <div>
                     <Heading>{t('capitalInfoTitle')}</Heading>
                     <Description>{t('capitalInfoDesc1')}</Description>
-                    <Description>{t('capitalInfoDesc2')}</Description>
                 </div>
 
                 <InfoBox>

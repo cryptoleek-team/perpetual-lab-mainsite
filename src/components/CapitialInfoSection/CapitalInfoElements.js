@@ -48,7 +48,7 @@ export const Description = styled.p`
 export const InfoBox = styled.div`
     display: flex;
     flex-flow: row wrap;
-    align-items:center;
+    align-items:start;
     justify-content:space-between;
     text-align:center;
 `

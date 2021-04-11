@@ -37,7 +37,6 @@ const CapitalApproachSection = ({t})=>{
                 <div>
                     <ApproachHeading>{t("capitalApproachTitle")}</ApproachHeading>
                     <ApproachDescription>{t('capitalApproachDesc1')}</ApproachDescription>
-                    <ApproachDescription>{t('capitalApproachDesc2')}</ApproachDescription>
                 </div>
                 <ChallengeHeading>{t("capitalChallengeTitle")}</ChallengeHeading>
                 <div>
