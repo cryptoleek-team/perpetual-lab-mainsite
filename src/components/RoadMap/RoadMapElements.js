@@ -120,7 +120,7 @@ export const Item = styled.div`
 
   @media screen and (max-width: 768px) {
     margin: -10px 40px -10px -20px;
-    max-width: 430px;
+    max-width: 470px;
 
     &.left {
       align-items: flex-start;
