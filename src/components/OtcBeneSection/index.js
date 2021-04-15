@@ -22,7 +22,7 @@ const OtcBeneSection = ({t})=>{
             <BeneWrapper>
                 <BeneHeading>{t("otcBeneTitle")}</BeneHeading>
 
-                <BeneBox>
+                <BeneBox data-aos="fade-in">
                      <BeneCard>
                         <BeneImgContainer>
                             <BeneImg src={bene1}></BeneImg>

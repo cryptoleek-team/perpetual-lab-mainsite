@@ -8,7 +8,7 @@ import {
 const CapitalPromoSection = ({t})=>{
     return(
         <PromoContainer>
-            <PromoBox>
+            <PromoBox data-aos="fade-down">
                 <PromoTitle>{t('capitalPromoDesc')}</PromoTitle>
             </PromoBox> 
         </PromoContainer>

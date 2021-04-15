@@ -34,8 +34,8 @@ const RoadMap = ({id, t, ln}) => {
           </ItemContainer>
         </Timeline>
       </Container>
-      <Container lan={ln==='Chinese'}>
-        <Circle />
+     <Container lan={ln==='Chinese'}>
+        <Circle/>
         <Timeline length={true}>
           <ItemContainer className='position'>
             <Item data-aos="fade-left">
@@ -50,13 +50,41 @@ const RoadMap = ({id, t, ln}) => {
       </Container>
       <Container lan={ln==='Chinese'}>
         <Circle />
-        <Timeline length={false}>
+        <Timeline length={true}>
           <ItemContainer>
             <Item className='left' data-aos="fade-right">
               <Title>{t("roadMapTitle4")}</Title>
               <SubTitle position={false}>{t("roadMapSubTitle4")}</SubTitle>
               <Text className='alignRight'>
-               {t("roadMapSubDesc4")}
+              {t("roadMapSubDesc4")}
+              </Text>
+            </Item>
+          </ItemContainer>
+        </Timeline>
+      </Container>
+      <Container lan={ln==='Chinese'}>
+        <Circle />
+        <Timeline length={true}>
+          <ItemContainer className='position'>
+            <Item data-aos="fade-left">
+              <Title>{t("roadMapTitle5")}</Title>
+              <SubTitle position={true}>{t("roadMapSubTitle5")}</SubTitle>
+              <Text>
+              {t("roadMapSubDesc5")}
+              </Text>
+            </Item>
+          </ItemContainer>
+        </Timeline>
+      </Container>
+      <Container lan={ln==='Chinese'}>
+        <Circle />
+        <Timeline length={false}>
+          <ItemContainer>
+            <Item className='left' data-aos="fade-right">
+              <Title>{t("roadMapTitle6")}</Title>
+              <SubTitle position={false}>{t("roadMapSubTitle6")}</SubTitle>
+              <Text className='alignRight'>
+               {t("roadMapSubDesc6")}
               </Text>
             </Item>
           </ItemContainer>

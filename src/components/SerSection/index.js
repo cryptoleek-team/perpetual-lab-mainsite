@@ -44,7 +44,7 @@ const SerSection = ({ id, ln, t }) => {
       <ReactTypeformEmbed
           popup
           autoOpen={false}
-          url="https://yockwqcrv0b.typeform.com/to/gycUPJQi"
+          url="https://2ru7d1rqzdl.typeform.com/to/OMbU0Mkc"
           hideHeaders
           hideFooter
           style={{ top: 100 }}
@@ -53,7 +53,7 @@ const SerSection = ({ id, ln, t }) => {
         <ReactTypeformEmbed
           popup
           autoOpen={false}
-          url="https://yockwqcrv0b.typeform.com/to/Ch2ITYLm"
+          url="https://2ru7d1rqzdl.typeform.com/to/yl4TnelN"
           hideHeaders
           hideFooter
           style={{ top: 100 }}

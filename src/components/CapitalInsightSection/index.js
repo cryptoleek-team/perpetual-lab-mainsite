@@ -23,7 +23,7 @@ const CapitalInsightSection = ({t})=>{
             <InsightWrapper>
                 <InsightHeading>{t("capitalInsightTitle")}</InsightHeading>
                 <div>
-                    <CardBox>
+                    <CardBox data-aos="fade-in">
                         <Card>
                             <CardImg src={insight1} alt="insight 1"></CardImg>
                             <CardTitle>{t("capitalInsightSubTitle1")}</CardTitle>

@@ -10,7 +10,7 @@ export const ApproachContainer = styled.div`
 `
 
 export const ApproachWrapper = styled.div`
-  max-width: 75%;
+  max-width: 80%;
   margin-right: auto;
   margin-left: auto;
 
@@ -54,7 +54,7 @@ export const ApproachBox = styled.div`
 `
 
 export const ApproachCol = styled.div`
-    flex: 0 0 26%;
+    flex: 0 0 28%;
     margin:20px;
 
     @media screen and (max-width:768px){

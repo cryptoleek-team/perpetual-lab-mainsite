@@ -38,7 +38,7 @@ export const NavLogo = styled(NavLink)`
   width: 100px;
   margin-left: 30px;
   img {
-    height: 50%;
+    height: 70%;
     margin-top: 8px;
   }
 

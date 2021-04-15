@@ -36,11 +36,11 @@ const CapitalApproachSection = ({t})=>{
             <ApproachWrapper>
                 <div>
                     <ApproachHeading>{t("capitalApproachTitle")}</ApproachHeading>
-                    <ApproachDescription>{t('capitalApproachDesc1')}</ApproachDescription>
+                    <ApproachDescription data-aos="fade-down">{t('capitalApproachDesc1')}</ApproachDescription>
                 </div>
                 <ChallengeHeading>{t("capitalChallengeTitle")}</ChallengeHeading>
                 <div>
-                    <ApproachBox>
+                    <ApproachBox data-aos="fade-in">
                         <ApproachCol>
                             <Card>
                                 <div style={{width:'80%'}}>

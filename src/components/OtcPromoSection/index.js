@@ -11,7 +11,7 @@ import{
 const OtcPromoSection = ({t})=>{
     return(
         <PromoContainer>
-            <PromoBox>
+            <PromoBox data-aos="fade-down">
                 <PromoWrapper>
                     <PromoTitle>{t('otcPromoSubTitle1')}</PromoTitle>
                     <PromoDesc>{t('otcPromoDesc1')}</PromoDesc>

@@ -13,7 +13,7 @@ import {
   NavBtn,
 } from './OtcNavbarElements';
 
-import logo from '../../images/Perpetual Labs-06.png';
+import logo from '../../images/ETM.png';
 
 const OtcNavbar = ({ toggle, changeLanguage, ln, t }) => {
   const [scrollNav, setScrollNav] = useState(false)

@@ -11,7 +11,7 @@ import{
     CardTitle,
     CardDesc,
 } from './OtcInfoElements';
-import logo from '../../images/Perpetual Labs-07.png';
+import logo from '../../images/ETM01.png';
 import service1 from '../../images/otcservice1.png';
 import service2 from '../../images/otcservice2.png';
 import service3 from '../../images/otcservice3.png';
@@ -29,7 +29,7 @@ const OtcInfoSection = ({t})=>{
                         <Heading>{t('otcInfoTitle')}</Heading>
                     </TitleBox>
                     
-                    <CardBox>
+                    <CardBox data-aos="fade-down">
                         <Card>
                             <div style={{position:'absolute', top: -30, left: 30}}>
                                 <CardImgContainer>

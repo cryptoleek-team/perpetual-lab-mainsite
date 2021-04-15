@@ -14,10 +14,11 @@ const CapitalInfoSection = ({t})=>{
             <TextWrapper>
                 <div>
                     <Heading>{t('capitalInfoTitle')}</Heading>
-                    <Description>{t('capitalInfoDesc1')}</Description>
+                    <Description data-aos="fade-down">{t('capitalInfoDesc1')}</Description>
+                    <Description data-aos="fade-down">{t('capitalInfoDesc2')}</Description>
                 </div>
 
-                <InfoBox>
+                <InfoBox data-aos="fade-down">
                     <InfoCard>
                         <Description style={{fontWeight:'bold'}}>{t('capitalInfoSubTitle1')}</Description>
                         <Description style={{marginTop:'5px'}}>{t('capitalInfoDesc3')}</Description>

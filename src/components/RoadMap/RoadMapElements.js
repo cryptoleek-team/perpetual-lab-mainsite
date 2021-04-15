@@ -31,10 +31,10 @@ export const Container = styled.div`
 	align-items: center;
 	justify-content: center;
   flex-direction: column;
-  height: ${({ lan }) => (lan ? '160px' : '140px')};
+  height: ${({ lan }) => (lan ? '180px' : '140px')};
   @media screen and (max-width: 768px) {
     margin: -50px auto;
-    height: 200px;
+    height: 230px;
   }
 `;
 
@@ -76,7 +76,7 @@ export const Timeline = styled.div`
     position: absolute;
     left: calc(50% - 1px);
     width: 2px;
-    height: ${({ length }) => (length ? '155px' : '130px')};
+    height: ${({ length }) => (length ? '200px' : '130px')};
   }
 `
 
