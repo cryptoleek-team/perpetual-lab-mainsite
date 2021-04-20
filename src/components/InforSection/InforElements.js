@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
   color: #f9f9f9;
   z-index: 11;
-  padding: 100px 0;
+  padding: 80px 0;
 
   @media screen and (max-width: 480px) {
     padding: 50px 0;

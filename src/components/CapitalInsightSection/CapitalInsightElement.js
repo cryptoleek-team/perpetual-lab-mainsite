@@ -10,7 +10,7 @@ export const InsightContainer = styled.div`
 `
 
 export const InsightWrapper = styled.div`
-  max-width: 75%;
+  max-width: 85%;
   margin-right: auto;
   margin-left: auto;
 

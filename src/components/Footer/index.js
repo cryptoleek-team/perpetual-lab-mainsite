@@ -33,7 +33,7 @@ const Footer = () => {
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
-            <WebsiteRights>Perpetual labs © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+            <WebsiteRights>ETM FinTech © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrapper>
