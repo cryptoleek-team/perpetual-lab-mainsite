@@ -42,18 +42,20 @@ export const TopLine = styled.p`
 `
 
 export const AdvisorContainer = styled.div`
-  width: 75%;
-  padding: 10px;
-  margin: auto;
+  width:80%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items:start;
+  justify-content:space-around;
+  margin:auto;
 `
 
 export const AdvisorBox = styled.div`
-    display: flex;
-    align-items:center;
-    justify-content:space-between;
+    flex: 0 0 40%;
 
     @media screen and (max-width: 768px) {
-        flex-direction: column;
+      margin-top:20px;
+      flex: 0 0 100%;
     }
 `
 
@@ -71,23 +73,22 @@ export const AdvisorName = styled.h3`
 `
 
 export const AdvisorImg = styled.img`
-  width:200px;
-  height:250px;
+  width:130px;
+  height:160px;
   margin-right:20px;
-
+  float: left;
+  
   @media screen and (max-width: 768px) {
-    margin-right:0px;
+    margin-right:10px;
 }
 `
-
-
 
 export const AdvisorDesc = styled.p`
     font-size: 18px;
     font-weight: 300;
     color: #000;
     margin: 0 auto;
-    text-align: left;
+    text-align:justify;
     
 
     @media screen and (max-width: 768px) {

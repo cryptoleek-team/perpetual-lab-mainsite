@@ -47,20 +47,14 @@ export const ApproachDescription = styled.p`
 
 export const ApproachBox = styled.div`
     display: flex;
-    flex-flow: row wrap;
     align-items:center;
+    flex-direction:row;
     justify-content:center;
     text-align:center;
-`
-
-export const ApproachCol = styled.div`
-    flex: 0 0 28%;
-    margin:20px;
 
     @media screen and (max-width:768px){
-        flex: 0 0 100%;
-        margin:0;
-    }
+      flex-direction:column;
+  }
 `
 
 export const ChallengeHeading = styled.h3`
@@ -69,89 +63,33 @@ export const ChallengeHeading = styled.h3`
   font-weight: 600;
   color: #592e94;
   text-align: center;
-  margin-top:20px;
+  margin-top:30px;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 20px;
   }
 `
-
-export const Card = styled.div`
-    width:100%;
-    height:200px;
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
+export const MacImgContainer = styled.div`
+  position: relative;
+  text-align: center;
+  color: white;
 `
 
-export const CardImgContainer = styled.div`
-    width:80px;
-    height:80px;
-    background-color:#f0f0f5;
-    border-radius:20px;
-    position:relative;
+export const MacImg = styled.img`
+  width:500px;
+
+  @media screen and (max-width: 480px) {
+    width:100%
+  }
 `
 
-export const CardImg = styled.img`
-    position:absolute;
-    width:60px;
-    height:60px;
-    top:10px;
-    left:10px;
-`
-
-
-
-export const CardTitle1 = styled.h4`
-    color: black;
-    font-size: 20px;
-    line-height: 1.1;
-    font-weight: 600;
-    text-align: left;
-
-    @media screen and (max-width: 1440px) {
-        font-size: 18px;
-    }
-
-`
-
-export const CardTitle2 = styled.h4`
-    color: black;
-    font-size: 20px;
-    line-height: 1.1;
-    font-weight: 600;
-    text-align: right;
-
-    @media screen and (max-width: 1440px) {
-        font-size: 18px;
-    }
-
-`
-
-export const CardDesc1 = styled.p`
-    color: black;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: left;
-    font-weight: 300;
-    margin-top:10px;
-
-    @media screen and (max-width: 1440px) {
-        font-size: 16px;
-    }
-
-`
-
-export const CardDesc2 = styled.p`
-    color: black;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: right;
-    font-weight: 300;
-    margin-top:10px;
-
-    @media screen and (max-width: 1440px) {
-        font-size: 16px;
-    }
-
+export const ImgText = styled.p`
+  color:#FFF;
+  position:absolute;
+  font-size:30px;
+  font-weight:600;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:3;
 `

@@ -3,11 +3,7 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
   color: #f9f9f9;
   z-index: 11;
-  padding: 80px 0;
-
-  @media screen and (max-width: 480px) {
-    padding: 50px 0;
-  }
+  padding: 50px 0;
 `
 
 export const TextWrapper = styled.div`
@@ -72,6 +68,7 @@ export const Box = styled.div`
 `
 
 export const Title = styled.h2`
+  height:80px;
   text-align: center;
   padding: 0 3.6%;
   font-size: 22px;
@@ -81,7 +78,13 @@ export const Title = styled.h2`
   margin: 0 0 8px; 
   letter-spacing: 0; 
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
+    height:50px;
+    font-size: 18px;
+  }
+
+  @media screen and (min-width:768px) and (max-width:1440px) {
+    height:120px;
     font-size: 18px;
   }
 `

@@ -25,15 +25,13 @@ const Team = ({t})=>{
             <div data-aos="fade-down">
                 <AdvisorContainer>
                     <AdvisorBox>
-                        <AdvisorImg src={Advisor1} alt="advisor1"></AdvisorImg>
-                        <div>
-                            <AdvisorName>{t('AdvisorName1')}</AdvisorName>
-                            <AdvisorDesc>{t('AdvisorDesc1')}</AdvisorDesc>
-                        </div>
+                            <AdvisorImg src={Advisor1} alt="advisor1"></AdvisorImg>
+                            <div>
+                                <AdvisorName>{t('AdvisorName1')}</AdvisorName>
+                                <AdvisorDesc>{t('AdvisorDesc1')}</AdvisorDesc>
+                            </div>
                     </AdvisorBox>
-                </AdvisorContainer>
 
-                <AdvisorContainer>
                     <AdvisorBox>
                         <AdvisorImg src={Advisor2} alt="advisor2"></AdvisorImg>
                         <div>

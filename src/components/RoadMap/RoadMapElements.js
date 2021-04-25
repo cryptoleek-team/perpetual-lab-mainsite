@@ -133,7 +133,7 @@ export const Item = styled.div`
 export const Road = styled.h1`
   margin: 0 auto 50px auto;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 600;
 
   @media screen and (max-width: 768px) {
     font-size: 25px;
