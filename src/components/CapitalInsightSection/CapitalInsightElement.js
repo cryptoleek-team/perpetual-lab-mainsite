@@ -73,14 +73,19 @@ export const CardTitle = styled.h3`
     color: #592e94;
     text-align: left;
     margin-top:20px;
-    height:100px;
+    height:${({ ln }) => (ln==='English' ? '100px' : '50px')};
     display:flex;
     align-items:start;
 
-    @media screen and (max-width: 1440px) {
-        font-size: 20px; 
-        height:150px;
+    @media screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+        font-size: 20px;
+        height:${({ ln }) => (ln==='English' ? '150px' : '70px')};
     }
+
+    @media screen and (max-width: 768px) {
+      height:${({ ln }) => (ln==='English' ? '90px' : '50px')};
+      font-size: 20px;
+  }
 `
 
 export const CardDesc = styled.p`

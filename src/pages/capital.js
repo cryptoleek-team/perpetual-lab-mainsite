@@ -50,7 +50,7 @@ const Capital = () => {
       <CapitalInfoSection t={t}/>
       <CapitalPromoSection t={t}/>
       <CapitalApproachSection t={t}/>
-      <CapitalInsightSection t={t}/>
+      <CapitalInsightSection t={t} ln={ln}/>
       <Footer />
   </div>
   );
