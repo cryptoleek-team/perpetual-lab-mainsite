@@ -4,7 +4,7 @@ export const Card = styled.div`
     padding:20px;
     height:200px;
     display:flex;
-    justify-content:start;
+    justify-content:center;
     align-items:center;
 `
 export const CardTitle = styled.h4`

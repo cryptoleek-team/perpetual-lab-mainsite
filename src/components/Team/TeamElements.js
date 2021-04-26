@@ -56,6 +56,7 @@ export const AdvisorBox = styled.div`
     @media screen and (max-width: 768px) {
       margin-top:20px;
       flex: 0 0 100%;
+      text-align:center;
     }
 `
 
@@ -69,6 +70,7 @@ export const AdvisorName = styled.h3`
 
   @media screen and (max-width: 480px) {
     font-size: 18px;
+    text-align:center;
   }
 `
 
@@ -80,6 +82,7 @@ export const AdvisorImg = styled.img`
   
   @media screen and (max-width: 768px) {
     margin-right:10px;
+    float:none;
 }
 `
 
