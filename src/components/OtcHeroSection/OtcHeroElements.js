@@ -99,3 +99,17 @@ export const HeroP =styled.p`
     text-align:center;
   }
 `
+
+export const TypeformBox = styled.div`
+  width:100%;
+  height:450px;
+
+  @media screen and (max-width: 768px) {
+    height:350px;
+  }
+
+  @media screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+   height:400px;
+}
+
+`

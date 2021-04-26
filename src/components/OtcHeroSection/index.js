@@ -7,7 +7,8 @@ import {
   HeroH1,
   HeroP,
   HeroBox1,
-  HeroBox2
+  HeroBox2,
+  TypeformBox
 } from './OtcHeroElements';
 import * as typeformEmbed from "@typeform/embed";
 import otcBg from '../../images/OTC Background.jpg'
@@ -54,7 +55,7 @@ const OtcHeroSection = ({ ln,t }) => {
         </HeroBox1>
 
         <HeroBox2>
-          <div ref={typeformRef} style={{ height: "450px", width: "100%" }}></div>
+          <TypeformBox ref={typeformRef}></TypeformBox>
         </HeroBox2>
       </HeroContent>
     </HeroContainer>
