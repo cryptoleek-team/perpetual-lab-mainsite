@@ -73,8 +73,8 @@ export const AdvisorName = styled.h3`
 `
 
 export const AdvisorImg = styled.img`
-  width:130px;
-  height:160px;
+  width:220px;
+  height:300px;
   margin-right:20px;
   float: left;
   
