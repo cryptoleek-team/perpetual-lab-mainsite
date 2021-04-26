@@ -14,7 +14,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              Level 2/696 Bourke St, Melbourne VIC 3000
+            Level 5/447 Collins St, Melbourne VIC 3000
             </SocialLogo>
             <SocialIcons>
               <SocialIconLink href='//www.facebook.com' target='_blank' aria-label='Facebook'>

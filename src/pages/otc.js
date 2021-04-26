@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import OtcSidebar from '../components/OtcSidebar';
 import OtcNavbar from '../components/OtcNavbar';
 import OtcHeroSection from '../components/OtcHeroSection';
