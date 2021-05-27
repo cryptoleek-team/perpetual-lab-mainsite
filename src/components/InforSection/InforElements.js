@@ -79,12 +79,17 @@ export const Title = styled.h2`
   letter-spacing: 0; 
 
   @media screen and (max-width: 768px) {
-    height:50px;
+    height:55px;
     font-size: 18px;
   }
 
   @media screen and (min-width:768px) and (max-width:1440px) {
-    height:120px;
+    height:130px;
+    font-size: 18px;
+  }
+
+  @media screen and (min-width:1440px) and (max-width:2000px) {
+    height:90px;
     font-size: 18px;
   }
 `

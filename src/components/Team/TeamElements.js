@@ -75,16 +75,29 @@ export const AdvisorName = styled.h3`
 `
 
 export const AdvisorImg = styled.img`
-  width:220px;
+  width:200px;
   height:300px;
   margin-right:20px;
   float: left;
+  cursor:pointer;
   
   @media screen and (max-width: 768px) {
     margin-right:10px;
     float:none;
 }
 `
+
+export const AdvisorCertImg = styled.img`
+  width:30%;
+  height:80%;
+  
+  @media screen and (max-width: 768px) {
+    width:80%;
+    height:60%;
+}
+`
+
+
 
 export const AdvisorDesc = styled.p`
     font-size: 18px;
