@@ -92,7 +92,7 @@ export const AdvisorCertImg = styled.img`
   height:80%;
   
   @media screen and (max-width: 768px) {
-    width:80%;
+    width:70%;
     height:60%;
 }
 `
