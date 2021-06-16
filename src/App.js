@@ -5,6 +5,7 @@ import Home from './pages/index';
 import Otc from './pages/otc';
 import ScrollToTop from './components/ScrollToTop';
 import Capital from './pages/capital'
+import News from './pages/news'
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useTranslation } from 'react-i18next';
@@ -31,14 +32,13 @@ function App() {
     i18n.changeLanguage(ln);
   }, [ln]);
 
-
-
   return (
     <Router>
       <ScrollToTop />
       <Route path="/" exact  component={() => <Home changeLan={changeLan} t={t} ln={ln} />}></Route>
       <Route path="/otc" exact component={() => <Otc changeLan={changeLan} t={t} ln={ln} />}></Route>
       <Route path='/capital' exact component={() => <Capital changeLan={changeLan} t={t} ln={ln} />}></Route>
+      <Route path='/news' exact component={() => <News changeLan={changeLan} t={t} ln={ln} />}></Route>
     </Router>
   );
 }

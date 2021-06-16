@@ -20,6 +20,7 @@ const OtcSidebar = ({ isOpen, toggle, changeLanguage, ln, t }) => {
           <SidebarLink to='/' onClick={toggle}>{t("home")}</SidebarLink>
           <SidebarLink to='/otc' onClick={toggle}>{t("otc")}</SidebarLink>
           <SidebarLink to='/capital' onClick={toggle}>{t("capital")}</SidebarLink>
+          <SidebarLink to='/news' onClick={toggle}>{t("news")}</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap onClick={changeLanguage}>
           {ln}

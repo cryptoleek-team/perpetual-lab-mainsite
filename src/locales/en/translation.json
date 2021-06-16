@@ -5,6 +5,7 @@
   "about": "ABOUT US",
   "otc":"OTC",
   "capital":"ETM FUNDS",
+  "news":"CRYPTO NEWS",
   "services": "SERVICES",
   "career":"CAREER",
   "roadMap": "ROADMAP",
@@ -138,5 +139,10 @@
   "capitalInsightSubTitle2":"How payment and technology companies are embracing cryptocurrency",
   "capitalInsightDesc2":"Many global technology companies have long seen how blockchain is going to transform their respective industries. These companies have made it a priority over the past years to start formulating and building a blockchain solution. We’ve outlined below a few examples around how over recent months some payment and...",
   "capitalInsightSubTitle3":"Asset management industry is getting creative in investing in cryptocurrency",
-  "capitalInsightDesc3":"The asset management industry also holds a great variety of possibilities for crypto finance. The number of funds purely containing cryptocurrencies is on the rise. Also, asset managers could profit from so-called “mixed funds”, which - with a combination of cryptocurrencies and different other alternative assets - are less volatile..."
+  "capitalInsightDesc3":"The asset management industry also holds a great variety of possibilities for crypto finance. The number of funds purely containing cryptocurrencies is on the rise. Also, asset managers could profit from so-called “mixed funds”, which - with a combination of cryptocurrencies and different other alternative assets - are less volatile...",
+
+  "newsTitle":"Top Crypto News Around the World",
+  "newsSubTitle":"Providing latest data to our members is our number one priority. Relevant news, quality images, and credible sources are essential elements of the service we provide.",
+
+  "newsHeading":"CRYPTO NEWS"
 }

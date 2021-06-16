@@ -79,7 +79,7 @@ export const Card = styled.div`
     @media screen and (max-width: 768px) {
         flex: 0 0 100%;
         height:350px;
-      }
+    }
 `
 
 export const CardImgContainer = styled.div`

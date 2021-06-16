@@ -67,6 +67,15 @@ const OtcNavbar = ({ toggle, changeLanguage, ln, t }) => {
                   offset={-80}
                 >{t("capital")}</NavLinks>
               </NavItem>
+
+
+              <NavItem>
+                <NavLinks
+                  to="/news"
+                  exact
+                  offset={-80}
+                >{t("news")}</NavLinks>
+              </NavItem>
             </NavMenu>
             <NavBtn onClick={changeLanguage}>{ln}</NavBtn>
           </NavbarContainer>
