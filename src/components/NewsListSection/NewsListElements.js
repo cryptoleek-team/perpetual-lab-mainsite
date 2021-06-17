@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const NewsContainer = styled.div`
   z-index: 11;
-  padding: 100px 0;
+  margin-bottom:30px;
 
   @media screen and (max-width: 480px) {
     padding: 20px 0;
@@ -21,7 +21,7 @@ export const TextWrapper = styled.div`
 `
 
 export const NewsHeading = styled.h2`
-  margin-bottom: 14px;
+  margin-bottom: 30px;
   font-size: 35px;
   line-height: 1.1;
   font-weight: 600;
@@ -34,7 +34,7 @@ export const NewsHeading = styled.h2`
 `
 
 export const NewsBox = styled.div`
-    padding: 2em;
+    padding: 10px;
     border: 1px solid #f7f8f9;
     margin-top:30px;
     color: #070808;
@@ -46,7 +46,7 @@ export const NewsBox = styled.div`
 
 export const NewsContent = styled.div`
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
 
     @media screen and (max-width: 768px) {
@@ -54,17 +54,35 @@ export const NewsContent = styled.div`
     }
 `
 
-export const NewsImg = styled.img`
-  width:500px;
-  margin:20px;
-  cursor:pointer;
+export const NewsCol1 = styled.div`
+  display:flex;
+  justify-content:center;
 
   @media screen and (max-width: 768px) {
     width:100%;
   }
+`
+
+export const NewsCol2 = styled.div`
+  width:60%;
+
+  @media screen and (max-width: 768px) {
+    width:100%;
+  }
+`
+
+export const NewsImg = styled.img`
+  width:500px;
+  margin:5px;
+  cursor:pointer;
+
+  @media screen and (max-width: 768px) {
+    width:100%;
+    margin-bottom:10px;
+  }
 
   @media screen and (min-device-width: 768px) and (max-device-width: 1440px) {
-    width:45%;
+    width:300px;
   }
 
 

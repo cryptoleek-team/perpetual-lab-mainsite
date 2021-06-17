@@ -17,7 +17,9 @@ export default function NewsAutocomplete({setTicker}) {
     }, [])
 
     const selectTicker = (ticker)=>{
-      setTicker(ticker.symbol)
+      if(ticker){
+        setTicker(ticker.symbol)
+      }
     }
 
   return (

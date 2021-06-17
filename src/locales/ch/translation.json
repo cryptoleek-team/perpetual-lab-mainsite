@@ -144,8 +144,14 @@
 
   "newsTitle":"全球领先的加密货币新闻",
   "newsSubTitle":"向我们的用户提供最新数据是我们的第一要务。相关新闻、优质图像和可靠来源是我们提供服务的基本要素。",
-
-  "newsHeading":"加密货币新闻"
+  "newsHeading":"加密货币新闻",
+  "newsFeatureTitle":"我们的新闻特色",
+  "newsFeatureSubtitle1":"数据的多样性",
+  "newsFeatureDesc1":"我们的用户可以访问各种加密新闻数据。高质量的数据是我们的保障。",
+  "newsFeatureSubtitle2":"新闻文章",
+  "newsFeatureDesc2":"运用加密新闻的API，我们有一个严格的管理流程，以确保所有新闻项目都与指定的加密货币相关。",
+  "newsFeatureSubtitle3":"视频新闻",
+  "newsFeatureDesc3":"视频内容已经占领了网络，并且是任何平台上的必备内容！我们很自豪能够将视频新闻编入索引。拥有视频等引人入胜的内容有助于促进您的网站或应用程序上的互动。"
 } 
 
 

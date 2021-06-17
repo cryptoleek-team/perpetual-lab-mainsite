@@ -143,6 +143,12 @@
 
   "newsTitle":"Top Crypto News Around the World",
   "newsSubTitle":"Providing latest data to our members is our number one priority. Relevant news, quality images, and credible sources are essential elements of the service we provide.",
-
-  "newsHeading":"CRYPTO NEWS"
+  "newsHeading":"CRYPTO NEWS",
+  "newsFeatureTitle":"OUR NEWS FEATURES",
+  "newsFeatureSubtitle1":"Various Data",
+  "newsFeatureDesc1":"Our users can have access to various crypto news data. High quality data is our top quality.",
+  "newsFeatureSubtitle2":"News Articles",
+  "newsFeatureDesc2":"Using Crypto News API, we have a strict curation process that ensures that all news items are relevant to the specified crypto coin.",
+  "newsFeatureSubtitle3":"Video News",
+  "newsFeatureDesc3":"Video content has taken over the web and is a must-have on any platform! We are proud to index video news. Having engaging content like video can help boost interaction on your site or app."
 }

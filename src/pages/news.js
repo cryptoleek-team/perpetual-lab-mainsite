@@ -3,6 +3,7 @@ import OtcSidebar from '../components/OtcSidebar';
 import OtcNavbar from '../components/OtcNavbar';
 import NewsHeroSection from '../components/NewsHeroSection';
 import NewsListSection from '../components/NewsListSection';
+import NewsFeatureSection from '../components/NewsFeatureSection';
 import Footer from '../components/Footer';
 
 const News = ({changeLan,ln,t}) => {
@@ -16,6 +17,7 @@ const News = ({changeLan,ln,t}) => {
       <OtcSidebar isOpen={isOpen} toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
       <OtcNavbar toggle={toggle} changeLanguage={changeLan} ln={ln} t={t}/>
       <NewsHeroSection t={t}></NewsHeroSection>
+      <NewsFeatureSection t={t}></NewsFeatureSection>
       <NewsListSection t={t}></NewsListSection>
       <Footer></Footer>
     </div>
