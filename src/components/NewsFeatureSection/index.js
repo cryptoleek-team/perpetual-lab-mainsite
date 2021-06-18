@@ -11,10 +11,9 @@ import{
     CardTitle,
     CardDesc,
 } from './NewsFeatureElements';
-import logo from '../../images/ETM01.png';
 import feature1 from '../../images/feature1.png';
-import feature2 from '../../images/feature1.png';
-import feature3 from '../../images/feature1.png';
+import feature2 from '../../images/feature2.png';
+import feature3 from '../../images/feature3.png';
 
 const NewsFeatureSection = ({t})=>{
     return(
@@ -22,7 +21,6 @@ const NewsFeatureSection = ({t})=>{
             <TextWrapper>
                 <div>
                     <TitleBox>
-                        <img src={logo} alt="logo"></img>
                         <Heading>{t('newsFeatureTitle')}</Heading>
                     </TitleBox>
                     

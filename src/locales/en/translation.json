@@ -143,12 +143,22 @@
 
   "newsTitle":"Top Crypto News Around the World",
   "newsSubTitle":"Providing latest data to our members is our number one priority. Relevant news, quality images, and credible sources are essential elements of the service we provide.",
-  "newsHeading":"CRYPTO NEWS",
+  "newsHeading":"CRYPTO NEWS IN 24 HOURS",
   "newsFeatureTitle":"OUR NEWS FEATURES",
   "newsFeatureSubtitle1":"Various Data",
   "newsFeatureDesc1":"Our users can have access to various crypto news data. High quality data is our top quality.",
   "newsFeatureSubtitle2":"News Articles",
   "newsFeatureDesc2":"Using Crypto News API, we have a strict curation process that ensures that all news items are relevant to the specified crypto coin.",
   "newsFeatureSubtitle3":"Video News",
-  "newsFeatureDesc3":"Video content has taken over the web and is a must-have on any platform! We are proud to index video news. Having engaging content like video can help boost interaction on your site or app."
+  "newsFeatureDesc3":"Video content has taken over the web and is a must-have on any platform! We are proud to index video news. Having engaging content like video can help boost interaction on your site or app.",
+
+  "newsETMHeading":"ETM TOP NEWS",
+  "newsETMTitle1":"ETM Roadshow at Stanford University",
+  "newsETMDesc1":"Prof. Sargent, Nobel prize winner in Economics, advisor of ETM, was presenting ETM project on 2018 Sino-US Economist Fintech Innovation Forum at Stanford University.",
+  "newsETMLoc1":"Stanford University",
+  "newsETMDate1":"Aug 29th, 2018",
+  "newsETMTitle2":"ETM Roadshow at Stanford University",
+  "newsETMDesc2":"Prof. Glashow, Nobel prize winner in Physics, advisor of ETM, was presenting ETM project on 2018 Sino-US Economist Fintech Innovation Forum at Stanford University.",
+  "newsETMLoc2":"Stanford University",
+  "newsETMDate2":"Aug 29th, 2018"
 }

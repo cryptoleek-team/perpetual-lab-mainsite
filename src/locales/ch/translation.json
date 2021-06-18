@@ -144,14 +144,24 @@
 
   "newsTitle":"全球领先的加密货币新闻",
   "newsSubTitle":"向我们的用户提供最新数据是我们的第一要务。相关新闻、优质图像和可靠来源是我们提供服务的基本要素。",
-  "newsHeading":"加密货币新闻",
+  "newsHeading":"24小时加密货币新闻",
   "newsFeatureTitle":"我们的新闻特色",
   "newsFeatureSubtitle1":"数据的多样性",
   "newsFeatureDesc1":"我们的用户可以访问各种加密新闻数据。高质量的数据是我们的保障。",
   "newsFeatureSubtitle2":"新闻文章",
   "newsFeatureDesc2":"运用加密新闻的API，我们有一个严格的管理流程，以确保所有新闻项目都与指定的加密货币相关。",
   "newsFeatureSubtitle3":"视频新闻",
-  "newsFeatureDesc3":"视频内容已经占领了网络，并且是任何平台上的必备内容！我们很自豪能够将视频新闻编入索引。拥有视频等引人入胜的内容有助于促进您的网站或应用程序上的互动。"
+  "newsFeatureDesc3":"视频内容已经占领了网络，并且是任何平台上的必备内容！我们很自豪能够将视频新闻编入索引。拥有视频等引人入胜的内容有助于促进您的网站或应用程序上的互动。",
+
+  "newsETMHeading":"ETM热门新闻",
+  "newsETMTitle1":"ETM在斯坦福大学路演",
+  "newsETMDesc1":"ETM顾问、诺贝尔经济学奖获得者萨金特教授在2018斯坦福中美经济学家金融科技创新论坛上演示ETM项目。",
+  "newsETMLoc1":"斯坦福大学",
+  "newsETMDate1":"2018年8月29日",
+  "newsETMTitle2":"ETM在斯坦福大学路演",
+  "newsETMDesc2":"ETM顾问、诺贝尔物理学奖获得者格拉肖教授在2018斯坦福中美经济学家金融科技创新论坛上演示ETM项目。",
+  "newsETMLoc2":"斯坦福大学",
+  "newsETMDate2":"2018年8月29日"
 } 
 
 
