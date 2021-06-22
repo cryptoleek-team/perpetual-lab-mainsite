@@ -6,6 +6,7 @@
   "otc":"OTC",
   "capital":"ETM FUNDS",
   "news":"CRYPTO NEWS",
+  "nft":"NFT",
   "services": "SERVICES",
   "career":"CAREER",
   "roadMap": "ROADMAP",
@@ -160,5 +161,22 @@
   "newsETMTitle2":"ETM Roadshow at Stanford University",
   "newsETMDesc2":"Prof. Glashow, Nobel prize winner in Physics, advisor of ETM, was presenting ETM project on 2018 Sino-US Economist Fintech Innovation Forum at Stanford University.",
   "newsETMLoc2":"Stanford University",
-  "newsETMDate2":"Aug 29th, 2018"
+  "newsETMDate2":"Aug 29th, 2018",
+
+  "nftTitle":"Our NFT marketplace and services",
+  "nftSubtitle":"We are building the first Australia-based NFT marketplace for our creative artists",
+  "nftInfoTitle":"ABOUT OUR NFT",
+  "nftInfoDesc1":"We are committed to creating the first Australia-based NFT marketplace for Australian and Chinese avant-garde artists to showcase their talents to the whole world. Everyone, who creates the artwork, promotes the artworks and trades the artworks will share the value growth of the artworks. ",
+  "nftInfoDesc2":"We welcome artists with foresights to come onboard. After going through our selection criteria, you will have our expert team to work with you on the following phases and procedure.",
+  "nftServiceHeading":"OUR SERVICES",
+  "nftServiceTitle1":"Platform",
+  "nftServiceDesc1":"The first Australia-based NFT marketplace for Australian avant-garde artists to showcase their talents to the whole world. Everyone, who creates, promotes and trades the artworks will share the value growth of the artworks.",
+  "nftServiceTitle2":"NFT",
+  "nftServiceDesc2":"We provide the wrap-around service that involved in creating an NFT: from product prototypes to artwork tokenization, from smart contract development to Visual Impact design etc.",
+  "nftServiceTitle3":"Marketing",
+  "nftServiceDesc3":"To maximize the exposure of your NFT artwork both on our marketplace and the external marketplaces we partner with, we will be dedicated to promoting your NFT artworks in our social community group.",
+  "nftServiceTitle4":"Flexibility",
+  "nftServiceDesc4":"We work with artists based on flexible terms. We welcome any artist who is interested in the next era of the art to talk to us.",
+  "nftPartner":"OUR NFT PARTNERSHIP"
+ 
 }
