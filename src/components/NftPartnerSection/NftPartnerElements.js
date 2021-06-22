@@ -55,8 +55,8 @@ export const ParnterImg1 = styled.img`
 export const ParnterImg2 = styled.img`
   height:90px;
   display:block;
-  margin:45px auto;
-  width:300px;
+  margin:50px auto;
+  width:320px;
 
   @media screen and (max-width: 768px) {
     margin-bottom:10px;
