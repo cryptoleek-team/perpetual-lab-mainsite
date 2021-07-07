@@ -96,20 +96,30 @@ export const AdvisorCertImg = styled.img`
     height:60%;
 }
 `
-
-
-
 export const AdvisorDesc = styled.p`
-    font-size: 18px;
-    font-weight: 300;
-    color: #000;
-    margin: 0 auto;
-    text-align:justify;
-    
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  margin: 0 auto;
+  text-align: justify;
 
-    @media screen and (max-width: 768px) {
-        font-size: 16px;
-        margin-top:10px;
-    }
+
+@media screen and(max-width: 768px) {
+  font-size: 16px;
+  margin-top: 10px;
+}
+`
+
+export const ConversationImg = styled.img`
+  margin-top:40px;
+  margin-bottom:20px;
+  width:100%;
+  height:350px;
+
+  @media screen and (max-width: 768px) {
+     margin-top:20px;
+     margin-bottom:0px;
+     height:200px;
+  }
 `
 

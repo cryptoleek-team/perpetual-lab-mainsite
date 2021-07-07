@@ -9,7 +9,8 @@ import {
     AdvisorDesc,
     AdvisorBox,
     AdvisorName,
-    AdvisorCertImg
+    AdvisorCertImg,
+    ConversationImg
 } from './TeamElements'
 import Modal from '@material-ui/core/Modal';
 import Fade from '@material-ui/core/Fade';
@@ -19,6 +20,9 @@ import Advisor1 from '../../images/Advisor1.jpeg'
 import Advisor2 from '../../images/Advisor2.jpeg'
 import Cert1 from "../../images/cert1.png"
 import Cert2 from "../../images/cert2.png"
+
+import Conversation from "../../images/conversation.jpg"
+import Meetup from "../../images/meetup.jpg"
 
 const useStyles = makeStyles((theme) => ({
     modal: {
@@ -51,7 +55,7 @@ const Team = ({ t }) => {
                 <TopLine>{t('AdvisorTopline')}</TopLine>
             </TextWrapper>
 
-            <div data-aos="fade-down">
+            <div data-aos="fade-in">
                 <AdvisorContainer>
                     <AdvisorBox>
                         <AdvisorImg src={Advisor1} alt="advisor1" onClick={handleOpen}></AdvisorImg>
@@ -98,6 +102,21 @@ const Team = ({ t }) => {
                         </div>
                     </AdvisorBox>
                 </AdvisorContainer>
+
+                <AdvisorContainer>
+                    <AdvisorBox>
+                        <ConversationImg src={Conversation} />
+                    </AdvisorBox>
+
+                    <AdvisorBox>
+                        <ConversationImg src={Meetup} />
+                    </AdvisorBox>
+                </AdvisorContainer>
+
+
+
+
+
             </div >
 
         </InfoContainer >

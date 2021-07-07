@@ -37,13 +37,21 @@ export const NavLogo = styled(NavLink)`
   align-items: center;
   width: 100px;
   margin-left: 30px;
+  padding:6px;
   img {
-    height: 70%;
-    margin-top: 8px;
+    height: 90%;
   }
 
   @media screen and (max-width: 768px) {
-    margin-left: 10px;
+    margin-left: 0px;
+  }
+
+  @media screen and (min-width:769px) and (max-width:1440px){
+    margin-left:0px;
+    padding:5px;
+    img{
+      height:60%;
+    }
   }
 `;
 

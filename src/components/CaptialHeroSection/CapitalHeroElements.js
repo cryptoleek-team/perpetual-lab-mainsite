@@ -73,7 +73,7 @@ export const HeroH1 = styled.h1`
   }
 `
 
-export const HeroP =styled.p`
+export const HeroP = styled.p`
   color: #fff;
   font-size: 30px;
   text-align: center;
@@ -91,7 +91,8 @@ export const HeroP =styled.p`
 export const HeroLine = styled.hr`
     width: 16%;
     color: #fff;
-    border-width: 2px;
     display:block;
+    height:3px;
     margin:auto;
+    background-color:#fff
 `
