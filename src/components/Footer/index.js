@@ -1,6 +1,7 @@
 import React from 'react';
-import { FooterContain, FooterWrapper, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements';
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FooterContain, FooterWrapper, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, Email } from './FooterElements';
+// import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi'
 import { animateScroll as scroll } from 'react-scroll';
 
 const Footer = () => {
@@ -14,13 +15,12 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-            Level 4/447 Collins St, Melbourne VIC 3000
+              Level 4/447 Collins St, Melbourne VIC 3000
             </SocialLogo>
             <SocialIcons>
-              <SocialIconLink href='#' target='_blank' aria-label='Facebook'>
-                <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink href='#' target='_blank' aria-label='Instagram'>
+              <HiOutlineMail style={{ color: "white" }} />
+              <Email href="mailto:hello@etm.one">hello@etm.one</Email>
+              {/* <SocialIconLink href='#' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink href='#' target='_blank' aria-label='Youtube'>
@@ -31,7 +31,7 @@ const Footer = () => {
               </SocialIconLink>
               <SocialIconLink href='#' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
-              </SocialIconLink>
+              </SocialIconLink> */}
             </SocialIcons>
             <WebsiteRights>ETM FinTech © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
           </SocialMediaWrap>

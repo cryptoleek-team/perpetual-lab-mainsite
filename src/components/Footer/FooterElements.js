@@ -56,12 +56,27 @@ export const WebsiteRights = styled.small`
   }
 `
 
+export const Email = styled.a`
+  color: #fff;
+  margin-left:10px;
+  margin-bottom:3px;
+  cursor:pointer;
+  font-size: 15px;
+  text-decoration: none;
+
+
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+    margin-bottom:0px;
+  }
+`
+
 export const SocialIcons = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 240px;
-  margin-top: -10px;
+  margin-bottom: 16px;
 `
 
 export const SocialIconLink = styled.a`
