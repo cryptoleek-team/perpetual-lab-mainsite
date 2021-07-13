@@ -5,12 +5,12 @@ import {
     PromoBox
 } from "./CapitalPromoElements"
 
-const CapitalPromoSection = ({t})=>{
-    return(
+const CapitalPromoSection = ({ t }) => {
+    return (
         <PromoContainer>
-            <PromoBox data-aos="fade-down">
+            <PromoBox data-aos="fade-in">
                 <PromoTitle>{t('capitalPromoDesc')}</PromoTitle>
-            </PromoBox> 
+            </PromoBox>
         </PromoContainer>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import{
+import {
     InfoContainer,
     TextWrapper,
     Heading,
@@ -19,8 +19,8 @@ import service4 from '../../images/otcservice4.png';
 import service5 from '../../images/otcservice5.png';
 import service6 from '../../images/otcservice6.png';
 
-const OtcInfoSection = ({t})=>{
-    return(
+const OtcInfoSection = ({ t }) => {
+    return (
         <InfoContainer>
             <TextWrapper>
                 <div>
@@ -28,10 +28,10 @@ const OtcInfoSection = ({t})=>{
                         <img src={logo} alt="logo"></img>
                         <Heading>{t('otcInfoTitle')}</Heading>
                     </TitleBox>
-                    
-                    <CardBox data-aos="fade-down">
+
+                    <CardBox data-aos="fade-in">
                         <Card>
-                            <div style={{position:'absolute', top: -30, left: 30}}>
+                            <div style={{ position: 'absolute', top: -30, left: 30 }}>
                                 <CardImgContainer>
                                     <CardImg src={service1}></CardImg>
                                 </CardImgContainer>
@@ -41,7 +41,7 @@ const OtcInfoSection = ({t})=>{
                             <CardDesc>{t('otcInfoDesc1')}</CardDesc>
                         </Card>
                         <Card>
-                            <div style={{position:'absolute', top: -30, left: 30}}>
+                            <div style={{ position: 'absolute', top: -30, left: 30 }}>
                                 <CardImgContainer>
                                     <CardImg src={service2}></CardImg>
                                 </CardImgContainer>
@@ -51,7 +51,7 @@ const OtcInfoSection = ({t})=>{
                             <CardDesc>{t('otcInfoDesc2')}</CardDesc>
                         </Card>
                         <Card>
-                            <div style={{position:'absolute', top: -30, left: 30}}>
+                            <div style={{ position: 'absolute', top: -30, left: 30 }}>
                                 <CardImgContainer>
                                     <CardImg src={service3}></CardImg>
                                 </CardImgContainer>
@@ -61,7 +61,7 @@ const OtcInfoSection = ({t})=>{
                             <CardDesc>{t('otcInfoDesc3')}</CardDesc>
                         </Card>
                         <Card>
-                            <div style={{position:'absolute', top: -30, left: 30}}>
+                            <div style={{ position: 'absolute', top: -30, left: 30 }}>
                                 <CardImgContainer>
                                     <CardImg src={service4}></CardImg>
                                 </CardImgContainer>
@@ -71,7 +71,7 @@ const OtcInfoSection = ({t})=>{
                             <CardDesc>{t('otcInfoDesc4')}</CardDesc>
                         </Card>
                         <Card>
-                            <div style={{position:'absolute', top: -30, left: 30}}>
+                            <div style={{ position: 'absolute', top: -30, left: 30 }}>
                                 <CardImgContainer>
                                     <CardImg src={service5}></CardImg>
                                 </CardImgContainer>
@@ -81,12 +81,12 @@ const OtcInfoSection = ({t})=>{
                             <CardDesc>{t('otcInfoDesc5')}</CardDesc>
                         </Card>
                         <Card>
-                            <div style={{position:'absolute', top: -30, left: 30}}>
+                            <div style={{ position: 'absolute', top: -30, left: 30 }}>
                                 <CardImgContainer>
                                     <CardImg src={service6}></CardImg>
                                 </CardImgContainer>
                             </div>
-                            
+
                             <CardTitle>{t('otcInfoSubtitle6')}</CardTitle>
                             <CardDesc>{t('otcInfoDesc6')}</CardDesc>
                         </Card>

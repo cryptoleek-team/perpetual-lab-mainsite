@@ -10,19 +10,22 @@ import {
     AdvisorBox,
     AdvisorName,
     AdvisorCertImg,
-    ConversationImg
+    TeamImg
 } from './TeamElements'
 import Modal from '@material-ui/core/Modal';
 import Fade from '@material-ui/core/Fade';
 import { makeStyles } from '@material-ui/core/styles';
 
+
+import Member1 from '../../images/seabook.png'
+import Member2 from '../../images/hao.png'
+import Member3 from '../../images/van.png'
 import Advisor1 from '../../images/Advisor1.jpeg'
 import Advisor2 from '../../images/Advisor2.jpeg'
 import Cert1 from "../../images/cert1.png"
 import Cert2 from "../../images/cert2.png"
 
-import Conversation from "../../images/conversation.jpg"
-import Meetup from "../../images/meetup.jpg"
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles((theme) => ({
     modal: {
@@ -50,6 +53,39 @@ const Team = ({ t }) => {
 
     return (
         <InfoContainer>
+            <TextWrapper>
+                <Heading>{t('teamTitle')}</Heading>
+                <TopLine>{t('teamInfo')}</TopLine>
+            </TextWrapper>
+
+            <AdvisorContainer data-aos="fade-in">
+                <Grid container spacing={3}>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <TeamImg src={Member1} alt="member1"></TeamImg>
+                        <div>
+                            <AdvisorName>{t('teamMemberName1')} - {t('teamMemberRole1')}</AdvisorName>
+                            <AdvisorDesc>{t('teamMemberDesc1')}</AdvisorDesc>
+                        </div>
+                    </Grid>
+
+                    <Grid item xs={12} md={6} lg={4}>
+                        <TeamImg src={Member2} alt="member2"></TeamImg>
+                        <div>
+                            <AdvisorName>{t('teamMemberName2')} - {t('teamMemberRole2')}</AdvisorName>
+                            <AdvisorDesc>{t('teamMemberDesc2')}</AdvisorDesc>
+                        </div>
+                    </Grid>
+
+                    <Grid item xs={12} md={6} lg={4}>
+                        <TeamImg src={Member3} alt="member3"></TeamImg>
+                        <div>
+                            <AdvisorName>{t('teamMemberName3')} - {t('teamMemberRole3')}</AdvisorName>
+                            <AdvisorDesc>{t('teamMemberDesc3')}</AdvisorDesc>
+                        </div>
+                    </Grid>
+                </Grid>
+            </AdvisorContainer>
+
             <TextWrapper>
                 <Heading>{t('AdvisorTitle')}</Heading>
                 <TopLine>{t('AdvisorTopline')}</TopLine>
@@ -102,21 +138,6 @@ const Team = ({ t }) => {
                         </div>
                     </AdvisorBox>
                 </AdvisorContainer>
-
-                <AdvisorContainer>
-                    <AdvisorBox>
-                        <ConversationImg src={Conversation} />
-                    </AdvisorBox>
-
-                    <AdvisorBox>
-                        <ConversationImg src={Meetup} />
-                    </AdvisorBox>
-                </AdvisorContainer>
-
-
-
-
-
             </div >
 
         </InfoContainer >

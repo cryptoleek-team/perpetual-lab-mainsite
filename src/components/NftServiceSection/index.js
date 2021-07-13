@@ -1,5 +1,5 @@
 import React from 'react';
-import{
+import {
     InfoContainer,
     TextWrapper,
     Heading,
@@ -16,18 +16,18 @@ import service2 from '../../images/nft-service2.png';
 import service3 from '../../images/nft-service3.png';
 import service4 from '../../images/nft-service4.png';
 
-const NftServiceSection = ({t})=>{
-    return(
+const NftServiceSection = ({ t }) => {
+    return (
         <InfoContainer>
             <TextWrapper>
                 <div>
                     <TitleBox>
                         <Heading>{t('nftServiceHeading')}</Heading>
                     </TitleBox>
-                    
-                    <CardBox data-aos="fade-down">
+
+                    <CardBox data-aos="fade-in">
                         <Card>
-                            <div style={{position:'absolute', top: -30, left: 30}}>
+                            <div style={{ position: 'absolute', top: -30, left: 30 }}>
                                 <CardImgContainer>
                                     <CardImg src={service1}></CardImg>
                                 </CardImgContainer>
@@ -37,7 +37,7 @@ const NftServiceSection = ({t})=>{
                             <CardDesc>{t('nftServiceDesc1')}</CardDesc>
                         </Card>
                         <Card>
-                            <div style={{position:'absolute', top: -30, left: 30}}>
+                            <div style={{ position: 'absolute', top: -30, left: 30 }}>
                                 <CardImgContainer>
                                     <CardImg src={service2}></CardImg>
                                 </CardImgContainer>
@@ -48,9 +48,9 @@ const NftServiceSection = ({t})=>{
                         </Card>
                     </CardBox>
 
-                    <CardBox data-aos="fade-down">
+                    <CardBox data-aos="fade-in">
                         <Card>
-                            <div style={{position:'absolute', top: -30, left: 30}}>
+                            <div style={{ position: 'absolute', top: -30, left: 30 }}>
                                 <CardImgContainer>
                                     <CardImg src={service3}></CardImg>
                                 </CardImgContainer>
@@ -60,7 +60,7 @@ const NftServiceSection = ({t})=>{
                             <CardDesc>{t('nftServiceDesc3')}</CardDesc>
                         </Card>
                         <Card>
-                            <div style={{position:'absolute', top: -30, left: 30}}>
+                            <div style={{ position: 'absolute', top: -30, left: 30 }}>
                                 <CardImgContainer>
                                     <CardImg src={service4}></CardImg>
                                 </CardImgContainer>

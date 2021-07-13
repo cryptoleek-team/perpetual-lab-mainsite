@@ -1,6 +1,6 @@
 import React from 'react';
 
-import{
+import {
     PromoContainer,
     PromoBox,
     PromoWrapper,
@@ -8,16 +8,16 @@ import{
     PromoDesc
 } from './OtcPromoElments'
 
-const OtcPromoSection = ({t})=>{
-    return(
+const OtcPromoSection = ({ t }) => {
+    return (
         <PromoContainer>
-            <PromoBox data-aos="fade-down">
-                <PromoWrapper>
+            <PromoBox>
+                <PromoWrapper data-aos="fade-right">
                     <PromoTitle>{t('otcPromoSubTitle1')}</PromoTitle>
                     <PromoDesc>{t('otcPromoDesc1')}</PromoDesc>
                 </PromoWrapper>
 
-                <PromoWrapper>
+                <PromoWrapper data-aos="fade-left">
                     <PromoTitle>{t('otcPromoSubTitle2')}</PromoTitle>
                     <PromoDesc>{t('otcPromoDesc2')}</PromoDesc>
                 </PromoWrapper>

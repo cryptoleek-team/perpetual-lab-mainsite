@@ -41,7 +41,6 @@ export const NewsBox = styled.div`
     border-spacing:30px;
     margin:20px auto;
 
-
     @media screen and (max-width: 768px) {
         border-collapse:initial;
         border-spacing:0px;
@@ -154,4 +153,39 @@ export const Icon = styled.div`
     @media screen and (max-width: 480px) {
       font-size: 16px;
     }
+`
+
+export const LongNewsBox = styled.div`
+    padding: 30px;
+    border: 1px solid #f7f8f9;
+    color: #070808;
+    flex: 0 0 28%;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+    max-width:80%;
+    margin:20px auto;
+`
+
+export const LongNewsImg = styled.img`
+  width:500px;
+  margin-right:15px;
+  cursor:pointer;
+  float:left;
+
+  @media screen and (max-width: 768px) {
+    width:100%;
+    margin-bottom:10px;
+    margin-right:0px;
+    float:none;
+  }
+
+  @media screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+    width:300px;
+  }
+
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    opacity: 0.5;
+}
 `

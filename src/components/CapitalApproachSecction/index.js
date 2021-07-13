@@ -15,20 +15,20 @@ import {
 import CustomCarousel from '../CustomCarousel'
 import mac from '../../images/mac.png'
 
-const CapitalApproachSection = ({t})=>{
+const CapitalApproachSection = ({ t }) => {
     return (
         <ApproachContainer>
             <ApproachWrapper>
                 <div>
                     <ApproachHeading>{t("capitalApproachTitle")}</ApproachHeading>
-                    <ApproachDescription data-aos="fade-down">{t('capitalApproachDesc1')}</ApproachDescription>
+                    <ApproachDescription data-aos="fade-in">{t('capitalApproachDesc1')}</ApproachDescription>
                 </div>
                 <ChallengeHeading>{t("capitalChallengeTitle")}</ChallengeHeading>
-                
+
                 <div>
                     <ApproachBox data-aos="fade-in">
                         <MacImgContainer>
-                            <MacImg src={mac} alt="mac"/>
+                            <MacImg src={mac} alt="mac" />
                             <ImgText>{t("capitalChallengeImgTitle")}</ImgText>
                         </MacImgContainer>
                         <CustomCarousel t={t}></CustomCarousel>

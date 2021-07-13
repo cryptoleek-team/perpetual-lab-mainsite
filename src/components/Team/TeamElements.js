@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
   color: #f9f9f9;
   z-index: 11;
-  padding: 30px 0;
+  padding-bottom:50px;
 `
 
 export const TextWrapper = styled.div`
@@ -12,6 +12,7 @@ export const TextWrapper = styled.div`
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-top:50px;
 }
 `
 
@@ -87,6 +88,21 @@ export const AdvisorImg = styled.img`
 }
 `
 
+export const TeamImg = styled.img`
+  width:230px;
+  height:300px;
+  margin-right:20px;
+  float: left;
+  cursor:pointer;
+  
+  @media screen and (max-width: 768px) {
+    margin-right:0px;
+    float:none;
+    display: block;
+    margin: 0 auto;
+}
+`
+
 export const AdvisorCertImg = styled.img`
   width:30%;
   height:80%;
@@ -101,8 +117,6 @@ export const AdvisorDesc = styled.p`
   font-weight: 300;
   color: #000;
   margin: 0 auto;
-  text-align: justify;
-
 
 @media screen and(max-width: 768px) {
   font-size: 16px;

@@ -12,12 +12,16 @@ import {
     NewsImgCointainer,
     TitleBox,
     IconContainer,
-    Icon
+    Icon,
+    LongNewsBox,
+    LongNewsImg
 } from "./NewsETMElements"
 
 import logo from '../../images/ETM01.png';
+
 import etmNews1 from "../../images/etm-news1.jpg"
 import etmNews2 from "../../images/etm-news2.jpg"
+import etmNews3 from "../../images/hk-news.jpeg"
 import { IoLocationOutline, IoCalendarOutline } from 'react-icons/io5';
 
 const NewsETMSection = ({ t }) => {
@@ -29,15 +33,41 @@ const NewsETMSection = ({ t }) => {
                     <NewsHeading>{t("newsETMHeading")}</NewsHeading>
                 </TitleBox>
 
-                <NewsBox data-aos="fade-down">
+                <LongNewsBox data-aos="fade-in">
+                    <div>
+                        <LongNewsImg src={etmNews3} alt="hk-news"></LongNewsImg>
+                        <NewsListTitle>{t("newsETMTitle3")}</NewsListTitle>
+                        <NewsListDesc>{t("newsETMDesc3")}</NewsListDesc>
+                    </div>
+
+                    <hr />
+
+                    <div style={{ display: "flex", justifyContent: "space-between" }}>
+                        <IconContainer>
+                            <Icon>
+                                <IoLocationOutline></IoLocationOutline>
+                            </Icon>
+                            <NewsSource>{t("newsETMLoc3")}</NewsSource>
+                        </IconContainer>
+
+                        <IconContainer>
+                            <Icon>
+                                <IoCalendarOutline></IoCalendarOutline>
+                            </Icon>
+                            <NewsSource>{t("newsETMDate3")}</NewsSource>
+                        </IconContainer>
+                    </div>
+                </LongNewsBox>
+
+                <NewsBox data-aos="fade-in">
                     <NewsCard>
                         <NewsImgCointainer>
                             <NewsImg src={etmNews1} alt=""></NewsImg>
                         </NewsImgCointainer>
                         <NewsListTitle>{t("newsETMTitle1")}</NewsListTitle>
                         <NewsListDesc>{t("newsETMDesc1")}</NewsListDesc>
-                        <hr/>
-                        <div style={{display:"flex",justifyContent:"space-between"}}>
+                        <hr />
+                        <div style={{ display: "flex", justifyContent: "space-between" }}>
                             <IconContainer>
                                 <Icon>
                                     <IoLocationOutline></IoLocationOutline>
@@ -60,8 +90,8 @@ const NewsETMSection = ({ t }) => {
                         </NewsImgCointainer>
                         <NewsListTitle>{t("newsETMTitle2")}</NewsListTitle>
                         <NewsListDesc>{t("newsETMDesc2")}</NewsListDesc>
-                        <hr/>
-                        <div style={{display:"flex",justifyContent:"space-between"}}>
+                        <hr />
+                        <div style={{ display: "flex", justifyContent: "space-between" }}>
                             <IconContainer>
                                 <Icon>
                                     <IoLocationOutline></IoLocationOutline>
@@ -79,7 +109,7 @@ const NewsETMSection = ({ t }) => {
                     </NewsCard>
                 </NewsBox>
             </TextWrapper>
-        </NewsContainer>
+        </NewsContainer >
     )
 }
 

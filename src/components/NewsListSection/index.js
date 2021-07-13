@@ -44,7 +44,7 @@ const NewsListSection = ({ t }) => {
                 <NewsHeading>{t("newsHeading")}</NewsHeading>
                 <NewsAutocomplete setTicker={setTicker}></NewsAutocomplete>
 
-                <div data-aos="fade-down">
+                <div data-aos="fade-in" style={{ height: "700px", overflowY: "scroll" }}>
                     {
                         newsList.length > 0 ? newsList.map((item, index) => (
                             <NewsBox key={index}>
