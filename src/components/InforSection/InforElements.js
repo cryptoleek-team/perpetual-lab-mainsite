@@ -46,54 +46,27 @@ export const TopLine = styled.p`
   }
 `
 
-export const Box = styled.div`
-  width: 25%;
-  padding: 0 35px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
-  text-align: center;
-  display: inline-block;
-  vertical-align:top;
-
-  img {
+export const InfoImg = styled.img`
     padding: 10px;
     width: 100px; 
-  }
-
-  @media (max-width: 768px){
-    width: 90%;
-  }
-
-  @media screen and (max-width: 480px) {
-    width: 100%;
-    padding: 0 0;
-  }
 `
 
 export const Title = styled.h2`
-  height:80px;
   text-align: center;
   padding: 0 3.6%;
   font-size: 22px;
   font-weight: 500;
   color: #592e94;
-  line-height: 1.5;
   margin: 0 0 8px; 
-  letter-spacing: 0; 
+  letter-spacing: 0;
+  height:70px;
 
   @media screen and (max-width: 768px) {
     height:55px;
     font-size: 18px;
   }
 
-  @media screen and (min-width:768px) and (max-width:1440px) {
-    height:130px;
-    font-size: 18px;
-  }
-
-  @media screen and (min-width:1440px) and (max-width:2000px) {
-    height:90px;
+  @media screen and (min-width:769px) and (max-width:2000px) {
     font-size: 18px;
   }
 `

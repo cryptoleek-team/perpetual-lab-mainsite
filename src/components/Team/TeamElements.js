@@ -117,10 +117,12 @@ export const AdvisorDesc = styled.p`
   font-weight: 300;
   color: #000;
   margin: 0 auto;
+  text-align: left;
 
 @media screen and(max-width: 768px) {
   font-size: 16px;
   margin-top: 10px;
+  
 }
 `
 
