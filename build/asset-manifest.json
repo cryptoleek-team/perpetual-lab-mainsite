@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.44365e00.chunk.css",
-    "main.js": "/static/js/main.1fedfbbf.chunk.js",
-    "main.js.map": "/static/js/main.1fedfbbf.chunk.js.map",
+    "main.js": "/static/js/main.53ff0f3b.chunk.js",
+    "main.js.map": "/static/js/main.53ff0f3b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d2419ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d2419ad.js.map",
     "static/css/2.db27c178.chunk.css": "/static/css/2.db27c178.chunk.css",
@@ -19,6 +19,7 @@
     "static/media/ETM01.8477758f.png": "/static/media/ETM01.8477758f.png",
     "static/media/NFT.4a30faa1.jpg": "/static/media/NFT.4a30faa1.jpg",
     "static/media/OTC Background.042cd9f2.jpg": "/static/media/OTC Background.042cd9f2.jpg",
+    "static/media/adam.04567371.png": "/static/media/adam.04567371.png",
     "static/media/approach1.2e5f45f4.png": "/static/media/approach1.2e5f45f4.png",
     "static/media/approach2.3925bfc8.png": "/static/media/approach2.3925bfc8.png",
     "static/media/approach3.5293ee11.png": "/static/media/approach3.5293ee11.png",
@@ -29,6 +30,7 @@
     "static/media/blocWallet.d1706bd3.png": "/static/media/blocWallet.d1706bd3.png",
     "static/media/cert1.7da445aa.png": "/static/media/cert1.7da445aa.png",
     "static/media/cert2.c30be4c5.png": "/static/media/cert2.c30be4c5.png",
+    "static/media/conversation.8765a3d4.jpg": "/static/media/conversation.8765a3d4.jpg",
     "static/media/crypto3.ffe66824.png": "/static/media/crypto3.ffe66824.png",
     "static/media/decentre.2a1a11a7.png": "/static/media/decentre.2a1a11a7.png",
     "static/media/etm-news1.21a2bc6d.jpg": "/static/media/etm-news1.21a2bc6d.jpg",
@@ -44,6 +46,7 @@
     "static/media/insight3-min.bbc0d273.jpeg": "/static/media/insight3-min.bbc0d273.jpeg",
     "static/media/investment1.a1b7bab2.png": "/static/media/investment1.a1b7bab2.png",
     "static/media/mac.6ca13db2.png": "/static/media/mac.6ca13db2.png",
+    "static/media/meetup.fa7634be.jpg": "/static/media/meetup.fa7634be.jpg",
     "static/media/news.93a62d7f.jpg": "/static/media/news.93a62d7f.jpg",
     "static/media/nft-logo1.81d14634.png": "/static/media/nft-logo1.81d14634.png",
     "static/media/nft-logo2.d5dc2fd2.png": "/static/media/nft-logo2.d5dc2fd2.png",
@@ -76,6 +79,6 @@
     "static/css/2.db27c178.chunk.css",
     "static/js/2.df755655.chunk.js",
     "static/css/main.44365e00.chunk.css",
-    "static/js/main.1fedfbbf.chunk.js"
+    "static/js/main.53ff0f3b.chunk.js"
   ]
 }

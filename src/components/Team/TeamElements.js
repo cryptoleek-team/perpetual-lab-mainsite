@@ -72,11 +72,12 @@ export const AdvisorName = styled.h3`
   @media screen and (max-width: 480px) {
     font-size: 18px;
     text-align:center;
+    margin-top:10px;
   }
 `
 
 export const AdvisorImg = styled.img`
-  width:200px;
+  width:230px;
   height:300px;
   margin-right:20px;
   float: left;
@@ -85,11 +86,12 @@ export const AdvisorImg = styled.img`
   @media screen and (max-width: 768px) {
     margin-right:10px;
     float:none;
+    width:90%;
 }
 `
 
 export const TeamImg = styled.img`
-  width:230px;
+  width:280px;
   height:300px;
   margin-right:20px;
   float: left;
@@ -100,6 +102,7 @@ export const TeamImg = styled.img`
     float:none;
     display: block;
     margin: 0 auto;
+    width:90%;
 }
 `
 
@@ -122,7 +125,6 @@ export const AdvisorDesc = styled.p`
 @media screen and(max-width: 768px) {
   font-size: 16px;
   margin-top: 10px;
-  
 }
 `
 
