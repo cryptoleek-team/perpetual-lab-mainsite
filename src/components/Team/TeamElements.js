@@ -82,6 +82,11 @@ export const AdvisorImg = styled.img`
   margin-right:20px;
   float: left;
   cursor:pointer;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    opacity: 0.8;
+  }
   
   @media screen and (max-width: 768px) {
     margin-right:10px;
@@ -105,16 +110,6 @@ export const TeamImg = styled.img`
     width:90%;
 }
 `
-
-export const AdvisorCertImg = styled.img`
-  width:30%;
-  height:80%;
-  
-  @media screen and (max-width: 768px) {
-    width:70%;
-    height:60%;
-}
-`
 export const AdvisorDesc = styled.p`
   font-size: 18px;
   font-weight: 300;
@@ -133,11 +128,17 @@ export const ConversationImg = styled.img`
   margin-bottom:20px;
   width:100%;
   height:350px;
+  cursor:pointer;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    opacity: 0.8;
+  }
 
   @media screen and (max-width: 768px) {
      margin-top:20px;
      margin-bottom:0px;
-     height:200px;
+     height:auto;
   }
 `
 

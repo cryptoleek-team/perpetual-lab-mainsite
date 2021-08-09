@@ -9,13 +9,11 @@ import {
     AdvisorDesc,
     AdvisorBox,
     AdvisorName,
-    AdvisorCertImg,
     TeamImg,
     ConversationImg
 } from './TeamElements'
-import Modal from '@material-ui/core/Modal';
-import Fade from '@material-ui/core/Fade';
-import { makeStyles } from '@material-ui/core/styles';
+import Lightbox from 'react-image-lightbox';
+import 'react-image-lightbox/style.css';
 import Grid from '@material-ui/core/Grid';
 import Member1 from '../../images/seabook.png'
 import Member2 from '../../images/hao.png'
@@ -28,30 +26,13 @@ import Cert2 from "../../images/cert2.png"
 import Conversation from "../../images/conversation.jpg"
 import Meetup from "../../images/meetup.jpg"
 
-
-const useStyles = makeStyles((theme) => ({
-    modal: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-}));
+const certImgaes = [Cert1, Cert2]
+const meetupImages = [Conversation, Meetup]
 
 const Team = ({ t }) => {
     const [open, setOpen] = useState(false);
-    const [isFirst, setFirst] = useState(false);
-    const classes = useStyles();
-    const handleOpen = (events) => {
-        setOpen(true);
-        if (events.target.alt === 'advisor1') {
-            setFirst(true);
-        } else {
-            setFirst(false);
-        }
-    };
-    const handleClose = () => {
-        setOpen(false);
-    };
+    const [photoIndex, setPhotoIndex] = useState(0);
+    const [openImg, setOpenImg] = useState(false)
 
     return (
         <InfoContainer>
@@ -104,21 +85,7 @@ const Team = ({ t }) => {
             <div data-aos="fade-in">
                 <AdvisorContainer>
                     <AdvisorBox>
-                        <AdvisorImg src={Advisor1} alt="advisor1" onClick={handleOpen}></AdvisorImg>
-
-                        <Modal
-                            open={open}
-                            className={classes.modal}
-                            onClose={handleClose}
-                            closeAfterTransition
-                            BackdropProps={{
-                                timeout: 500,
-                            }}>
-
-                            <Fade in={open}>
-                                <AdvisorCertImg src={isFirst ? Cert1 : Cert2} alt="certificate1"></AdvisorCertImg>
-                            </Fade>
-                        </Modal>
+                        <AdvisorImg src={Advisor1} alt="advisor1" onClick={() => setOpen(true)}></AdvisorImg>
 
                         <div>
                             <AdvisorName>{t('advisorName1')}</AdvisorName>
@@ -127,21 +94,7 @@ const Team = ({ t }) => {
                     </AdvisorBox>
 
                     <AdvisorBox>
-                        <AdvisorImg src={Advisor2} alt="advisor2" onClick={handleOpen}></AdvisorImg>
-
-                        <Modal
-                            open={open}
-                            className={classes.modal}
-                            onClose={handleClose}
-                            closeAfterTransition
-                            BackdropProps={{
-                                timeout: 500,
-                            }}>
-
-                            <Fade in={open}>
-                                <AdvisorCertImg src={isFirst ? Cert1 : Cert2} alt="certificate2"></AdvisorCertImg>
-                            </Fade>
-                        </Modal>
+                        <AdvisorImg src={Advisor2} alt="advisor2" onClick={() => setOpen(true)}></AdvisorImg>
                         <div>
                             <AdvisorName>{t('advisorName2')}</AdvisorName>
                             <AdvisorDesc>{t('advisorDesc2')}</AdvisorDesc>
@@ -156,14 +109,45 @@ const Team = ({ t }) => {
                 <div data-aos="fade-in">
                     <AdvisorContainer>
                         <AdvisorBox>
-                            <ConversationImg src={Conversation} />
+                            <ConversationImg src={Conversation} onClick={() => setOpenImg(true)} />
                         </AdvisorBox>
 
                         <AdvisorBox>
-                            <ConversationImg src={Meetup} />
+                            <ConversationImg src={Meetup} onClick={() => setOpenImg(true)} />
                         </AdvisorBox>
                     </AdvisorContainer>
                 </div>
+
+                {open && (
+                    <Lightbox
+                        mainSrc={certImgaes[photoIndex]}
+                        nextSrc={certImgaes[(photoIndex + 1) % certImgaes.length]}
+                        prevSrc={certImgaes[(photoIndex + certImgaes.length - 1) % certImgaes.length]}
+                        onCloseRequest={() => setOpen(false)}
+                        onMovePrevRequest={() =>
+                            setPhotoIndex((photoIndex + certImgaes.length - 1) % certImgaes.length)
+                        }
+                        onMoveNextRequest={() =>
+                            setPhotoIndex((photoIndex + 1) % certImgaes.length)
+                        }
+                    />
+                )}
+
+
+                {openImg && (
+                    <Lightbox
+                        mainSrc={meetupImages[photoIndex]}
+                        nextSrc={meetupImages[(photoIndex + 1) % meetupImages.length]}
+                        prevSrc={meetupImages[(photoIndex + meetupImages.length - 1) % meetupImages.length]}
+                        onCloseRequest={() => setOpenImg(false)}
+                        onMovePrevRequest={() =>
+                            setPhotoIndex((photoIndex + meetupImages.length - 1) % meetupImages.length)
+                        }
+                        onMoveNextRequest={() =>
+                            setPhotoIndex((photoIndex + 1) % meetupImages.length)
+                        }
+                    />
+                )}
             </div >
         </InfoContainer >
     )
