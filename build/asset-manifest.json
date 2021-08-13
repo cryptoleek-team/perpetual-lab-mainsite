@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.44365e00.chunk.css",
-    "main.js": "/static/js/main.b494f06f.chunk.js",
-    "main.js.map": "/static/js/main.b494f06f.chunk.js.map",
+    "main.js": "/static/js/main.1c9f9088.chunk.js",
+    "main.js.map": "/static/js/main.1c9f9088.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d2419ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d2419ad.js.map",
-    "static/css/2.db27c178.chunk.css": "/static/css/2.db27c178.chunk.css",
-    "static/js/2.df755655.chunk.js": "/static/js/2.df755655.chunk.js",
-    "static/js/2.df755655.chunk.js.map": "/static/js/2.df755655.chunk.js.map",
+    "static/css/2.25cf36a8.chunk.css": "/static/css/2.25cf36a8.chunk.css",
+    "static/js/2.f9c4b36c.chunk.js": "/static/js/2.f9c4b36c.chunk.js",
+    "static/js/2.f9c4b36c.chunk.js.map": "/static/js/2.f9c4b36c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.db27c178.chunk.css.map": "/static/css/2.db27c178.chunk.css.map",
+    "static/css/2.25cf36a8.chunk.css.map": "/static/css/2.25cf36a8.chunk.css.map",
     "static/css/main.44365e00.chunk.css.map": "/static/css/main.44365e00.chunk.css.map",
-    "static/js/2.df755655.chunk.js.LICENSE.txt": "/static/js/2.df755655.chunk.js.LICENSE.txt",
+    "static/js/2.f9c4b36c.chunk.js.LICENSE.txt": "/static/js/2.f9c4b36c.chunk.js.LICENSE.txt",
     "static/media/Advisor2.d644e34b.jpeg": "/static/media/Advisor2.d644e34b.jpeg",
     "static/media/Capital Background.cbc93c3c.jpg": "/static/media/Capital Background.cbc93c3c.jpg",
     "static/media/Company.1da92b32.png": "/static/media/Company.1da92b32.png",
@@ -19,7 +19,7 @@
     "static/media/ETM01.8477758f.png": "/static/media/ETM01.8477758f.png",
     "static/media/NFT.4a30faa1.jpg": "/static/media/NFT.4a30faa1.jpg",
     "static/media/OTC Background.042cd9f2.jpg": "/static/media/OTC Background.042cd9f2.jpg",
-    "static/media/adam.04567371.png": "/static/media/adam.04567371.png",
+    "static/media/adam.975e09f2.png": "/static/media/adam.975e09f2.png",
     "static/media/approach1.2e5f45f4.png": "/static/media/approach1.2e5f45f4.png",
     "static/media/approach2.3925bfc8.png": "/static/media/approach2.3925bfc8.png",
     "static/media/approach3.5293ee11.png": "/static/media/approach3.5293ee11.png",
@@ -39,7 +39,7 @@
     "static/media/feature1.8190a5fc.png": "/static/media/feature1.8190a5fc.png",
     "static/media/feature2.220eca94.png": "/static/media/feature2.220eca94.png",
     "static/media/feature3.213122f3.png": "/static/media/feature3.213122f3.png",
-    "static/media/hao.c8c262bb.png": "/static/media/hao.c8c262bb.png",
+    "static/media/hao.94c1cbf9.png": "/static/media/hao.94c1cbf9.png",
     "static/media/hk-news.18ed8232.jpeg": "/static/media/hk-news.18ed8232.jpeg",
     "static/media/insight1-min.ccbb495c.jpeg": "/static/media/insight1-min.ccbb495c.jpeg",
     "static/media/insight2-min.deebf6b0.jpeg": "/static/media/insight2-min.deebf6b0.jpeg",
@@ -71,14 +71,14 @@
     "static/media/seabook.3730d260.png": "/static/media/seabook.3730d260.png",
     "static/media/services.591fd95f.png": "/static/media/services.591fd95f.png",
     "static/media/social.e231c995.png": "/static/media/social.e231c995.png",
-    "static/media/van.a1cd37f5.png": "/static/media/van.a1cd37f5.png",
+    "static/media/van.a8f9122b.png": "/static/media/van.a8f9122b.png",
     "static/media/wallet.2063087d.png": "/static/media/wallet.2063087d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4d2419ad.js",
-    "static/css/2.db27c178.chunk.css",
-    "static/js/2.df755655.chunk.js",
+    "static/css/2.25cf36a8.chunk.css",
+    "static/js/2.f9c4b36c.chunk.js",
     "static/css/main.44365e00.chunk.css",
-    "static/js/main.b494f06f.chunk.js"
+    "static/js/main.1c9f9088.chunk.js"
   ]
 }
