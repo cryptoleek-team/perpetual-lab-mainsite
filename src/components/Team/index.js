@@ -18,7 +18,6 @@ import Grid from '@material-ui/core/Grid';
 import Member1 from '../../images/seabook.png'
 import Member2 from '../../images/hao.png'
 import Member3 from '../../images/van.png'
-import Member4 from '../../images/adam.png'
 import Advisor1 from '../../images/Advisor1.jpeg'
 import Advisor2 from '../../images/Advisor2.jpeg'
 import Cert1 from "../../images/cert1.png"
@@ -43,7 +42,7 @@ const Team = ({ t }) => {
 
             <AdvisorContainer data-aos="fade-in">
                 <Grid container spacing={3}>
-                    <Grid item xs={12} md={6}>
+                    <Grid item xs={12} md={6} xl={4}>
                         <TeamImg src={Member1} alt="member1"></TeamImg>
                         <div>
                             <AdvisorName>{t('teamMemberName1')} - {t('teamMemberRole1')}</AdvisorName>
@@ -51,7 +50,7 @@ const Team = ({ t }) => {
                         </div>
                     </Grid>
 
-                    <Grid item xs={12} md={6}>
+                    <Grid item xs={12} md={6} xl={4}>
                         <TeamImg src={Member2} alt="member2"></TeamImg>
                         <div>
                             <AdvisorName>{t('teamMemberName2')} - {t('teamMemberRole2')}</AdvisorName>
@@ -59,19 +58,11 @@ const Team = ({ t }) => {
                         </div>
                     </Grid>
 
-                    <Grid item xs={12} md={6}>
+                    <Grid item xs={12} md={6} xl={4}>
                         <TeamImg src={Member3} alt="member3"></TeamImg>
                         <div>
                             <AdvisorName>{t('teamMemberName3')} - {t('teamMemberRole3')}</AdvisorName>
                             <AdvisorDesc>{t('teamMemberDesc3')}</AdvisorDesc>
-                        </div>
-                    </Grid>
-
-                    <Grid item xs={12} md={6}>
-                        <TeamImg src={Member4} alt="member4"></TeamImg>
-                        <div>
-                            <AdvisorName>{t('teamMemberName4')} - {t('teamMemberRole4')}</AdvisorName>
-                            <AdvisorDesc>{t('teamMemberDesc4')}</AdvisorDesc>
                         </div>
                     </Grid>
                 </Grid>
